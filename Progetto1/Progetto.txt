@@ -1,0 +1,62 @@
+WHICH LANGUAGE
+
+App che aiuta e guida nella scelta di un linguaggio di programmazione.
+
+Utente normale ------> 	può scegliere direttamente un linguaggio di programmazione
+			può scegliere un linguaggio di programmazione attraverso le linee guida
+			può comprare un libro di programmazione in biblioteca
+			può selezionare preferenze linguaggi e IDE
+			può scegliere un progetto per un determinato linguaggio
+			può scegliere un'università dove seguire corsi di studio informatica
+			può selezionare preferenza città dove geolocalizzare università e biblioteche
+			può guardare video tutorial da YouTube
+			
+Utente pro ---------->	può consigliare IDE ulteriori alla piattaforma
+			può recensire IDE consigliati
+			può recensire progetti altrui
+			può caricare un nuovo progetto
+			può ricevere donazioni per i suoi progetti
+
+L'utente apre il software, seleziona utente normale, fa login/registrazione
+seleziona linguaggio:	bottone FAQ	
+
+			bottone studio in università:	sceglie città gelocalizzazione
+							vede università trovate
+			
+			bottone studio da solo:		o sceglie linguaggio di programmazione
+							o linee guida scelta
+							vede wiki
+							sceglie città geolocalizzazione
+							sceglie libro di programmazione
+							sceglie biblioteca
+			
+			bottone studio tramite piattaforma:	o sceglie linguaggio di programmazione
+								o linee guida scelta
+								sceglie tutorial YouTube
+								sceglie IDE
+								rimanda a sito IDE
+								sceglie progetto da seguire
+			
+scelte varie salvate nel riepilogo del profilo
+pop-up del sistema "Qualsiasi scelta è eseguibile dalla voce <profilo preferenze>"
+
+completare informazioni di profilo con: bio
+					link sito web personale
+					link linkedin
+					link instagram
+					link facebook
+
+se utente pro allora:	accedere lista progetti utenti
+			recensire progetti svolti
+			recensire IDE consigliati 
+			consigliare altri IDE
+			
+			
+								
+
+
+
+
+
+
+

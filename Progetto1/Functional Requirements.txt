@@ -1,0 +1,7 @@
+FUNCTIONAL REQUIREMENTS.
+
+1)The system shall purge options from the favorite list when user deselect them from there.
+
+2)The system shall provide a list of libraries in user's city when he choose the option of learning from books.
+
+3)The system after recieving the language choosed from the user shall provide an IDE as advice. 
