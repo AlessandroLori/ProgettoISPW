@@ -1,0 +1,7 @@
+organization=alessandrolori
+projectKey=alessandrolori_ProgettoISPW
+serverUrl=https://sonarcloud.io
+serverVersion=8.0.0.24741
+dashboardUrl=https://sonarcloud.io/dashboard?id=alessandrolori_ProgettoISPW
+ceTaskId=AX0UhpFs7-JuQFhVQM91
+ceTaskUrl=https://sonarcloud.io/api/ce/task?id=AX0UhpFs7-JuQFhVQM91
