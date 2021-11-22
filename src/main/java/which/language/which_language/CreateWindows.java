@@ -7,7 +7,6 @@ import javafx.scene.Scene;
 import javafx.scene.control.Button;
 import javafx.stage.Stage;
 
-import java.io.IOException;
 import java.net.URL;
 import java.util.Objects;
 import java.util.ResourceBundle;
@@ -24,15 +23,19 @@ public class CreateWindows implements Initializable {
         stage.setResizable(false);
         stage.show();
     }
-
+    //registerfxml
     public static void login(Button Login) throws Exception {
         Parent root= FXMLLoader.load(Objects.requireNonNull(CreateWindows.class.getResource("Login.fxml")));
         create(Login,root,"Login");
+    }
 
+    //loginfxml
+    public static void register(Button Register) throws Exception{
+        Parent root= FXMLLoader.load(Objects.requireNonNull(CreateWindows.class.getResource("Registration.fxml")));
+        create(Register,root,"Register");
     }
 
     @Override
     public void initialize(URL url, ResourceBundle resourceBundle) {
-
     }
 }

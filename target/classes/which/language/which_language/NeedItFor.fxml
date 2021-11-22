@@ -15,7 +15,7 @@
          <children>
             <ImageView fitHeight="518.0" fitWidth="690.0">
                <image>
-                  <Image url="@../Icons-images/R2.jpg" />
+                  <Image url="@Images/R2.jpg" />
                </image>
             </ImageView>
             <Rectangle fill="#ff8d00" height="43.0" stroke="BLACK" strokeType="INSIDE" width="690.0" />
@@ -26,23 +26,23 @@
             </Text>
             <ImageView fitHeight="37.0" fitWidth="37.0" layoutX="644.0" layoutY="3.0">
                <image>
-                  <Image url="@../Icons-images/icons8-user-64.png" />
+                  <Image url="@Images/icons8-user-64.png" />
                </image>
             </ImageView>
             <ImageView fitHeight="37.0" fitWidth="37.0" layoutX="7.0" layoutY="3.0">
                <image>
-                  <Image url="@../Icons-images/icons8-menu-24.png" />
+                  <Image url="@Images/icons8-menu-24.png" />
                </image>
             </ImageView>
             <Rectangle arcHeight="23.0" arcWidth="23.0" fill="#ff8d00" height="43.0" layoutX="95.0" layoutY="78.0" stroke="BLACK" strokeType="INSIDE" width="511.0" />
             <ImageView fitHeight="40.0" fitWidth="40.0" layoutX="95.0" layoutY="79.0">
                <image>
-                  <Image url="@../Icons-images/icons8-source-cod.png" />
+                  <Image url="@Images/icons8-source-cod.png" />
                </image>
             </ImageView>
             <ImageView fitHeight="40.0" fitWidth="40.0" layoutX="565.0" layoutY="79.0">
                <image>
-                  <Image url="@../Icons-images/icons8-source-cod.png" />
+                  <Image url="@Images/icons8-source-cod.png" />
                </image>
             </ImageView>
             <Text layoutX="115.0" layoutY="110.0" strokeType="OUTSIDE" strokeWidth="0.0" text="What do you need it for?" textAlignment="CENTER" wrappingWidth="470.04296875">

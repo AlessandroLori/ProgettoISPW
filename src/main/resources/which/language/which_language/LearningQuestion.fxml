@@ -55,18 +55,20 @@
             <Font name="Georgia" size="33.0" />
          </font>
       </Text>
+      <Button layoutX="155.0" layoutY="216.0" mnemonicParsing="false" opacity="0.0" prefHeight="45.0" prefWidth="391.0" />
       <Rectangle arcHeight="23.0" arcWidth="23.0" fill="#fbff00" height="34.0" layoutX="388.0" layoutY="320.0" stroke="BLACK" strokeType="INSIDE" width="212.0" />
       <Text layoutX="388.0" layoutY="344.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Choose University" textAlignment="CENTER" wrappingWidth="212.04296875">
          <font>
             <Font name="Georgia" size="25.0" />
          </font>
       </Text>
+      <Button layoutX="388.0" layoutY="320.0" mnemonicParsing="false" opacity="0.0" prefHeight="34.0" prefWidth="212.0" />
       <Rectangle arcHeight="23.0" arcWidth="23.0" fill="#fbff00" height="34.0" layoutX="99.0" layoutY="320.0" stroke="BLACK" strokeType="INSIDE" width="212.0" />
       <Text layoutX="99.0" layoutY="345.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Self Study" textAlignment="CENTER" wrappingWidth="212.04296875">
          <font>
             <Font name="Georgia" size="25.0" />
          </font>
       </Text>
-      <Button layoutX="73.0" layoutY="206.0" mnemonicParsing="false" style="-fx-background-color: #ff8d00;" text="Button" />
+      <Button layoutX="99.0" layoutY="320.0" mnemonicParsing="false" opacity="0.0" prefHeight="34.0" prefWidth="212.0" />
    </children>
 </AnchorPane>
