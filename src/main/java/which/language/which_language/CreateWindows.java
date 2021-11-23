@@ -29,10 +29,21 @@ public class CreateWindows implements Initializable {
         create(Login,root,"Login");
     }
 
+    public static void signup(Button SignUp) throws Exception{
+        Parent root= FXMLLoader.load(Objects.requireNonNull(CreateWindows.class.getResource("Welcome.fxml")));
+        create(SignUp,root,"Start");
+    }
+
     //loginfxml
     public static void register(Button Register) throws Exception{
         Parent root= FXMLLoader.load(Objects.requireNonNull(CreateWindows.class.getResource("Registration.fxml")));
         create(Register,root,"Register");
+    }
+
+    //welcomefxml
+    public static void howstart(Button Start) throws Exception{
+        Parent root= FXMLLoader.load(Objects.requireNonNull(CreateWindows.class.getResource("LearningQuestion.fxml")));
+        create(Start,root,"Learning Question");
     }
 
     @Override

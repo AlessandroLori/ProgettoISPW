@@ -23,3 +23,12 @@ public class Register extends Application{
         stage.show();
     }
 }
+
+//gui ha controller grafico che manda a bin per controllo sintattico che manda a controller e basta per controllo
+//database ed accertamento input corretto
+
+//hashmap, submit manda credenziali al controller, il controller prende le credenziali dal database e manda al submit
+//che confronta credenziali db con credenziali utenti e manda booleano per login
+
+//TODO cambiare scene per passare da gui a gui senza creare nuovi stage ogni volta (altrimenti codice ripetuto o responsabilità
+//TODO tutta ad un'unica classe che è sbagliato) forse meglio usare STACKPANE
