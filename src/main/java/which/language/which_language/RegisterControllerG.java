@@ -1,8 +1,14 @@
 package which.language.which_language;
 
 import javafx.fxml.FXML;
+import javafx.fxml.FXMLLoader;
 import javafx.fxml.Initializable;
+import javafx.scene.Parent;
+import javafx.scene.Scene;
 import javafx.scene.control.Button;
+import javafx.stage.Stage;
+
+import java.util.Objects;
 
 public class RegisterControllerG extends CreateWindows implements Initializable {
     //added fxcontroller in anchor pane con path controller interessato (in questo caso RegisterController)
@@ -14,7 +20,14 @@ public class RegisterControllerG extends CreateWindows implements Initializable 
 
     @FXML
     private void Login() throws Exception{ //metodo con stesso nome fxml onAction
-        CreateWindows.login(LoginButton);
+        Parent root= FXMLLoader.load(Objects.requireNonNull(CreateWindows.class.getResource("Login.fxml")));
+        Scene sceneC= new Scene(root, 690,518);
+        Stage stage= (Stage) LoginButton.getScene().getWindow();
+
+        stage.setTitle("Login");
+        stage.setScene(sceneC);
+        stage.setResizable(false);
+        stage.show();
     }
 
     @FXML
