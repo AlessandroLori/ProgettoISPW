@@ -31,7 +31,15 @@ public class RegisterControllerG extends CreateWindows implements Initializable 
     }
 
     @FXML
-    private void Start() throws Exception{ //metodo con stesso nome fxml onAction
-        CreateWindows.signup(SignupButton);
+    private void SignUp() throws Exception{ //metodo con stesso nome fxml onAction
+        //CreateWindows.signup(SignupButton);
+        Parent root= FXMLLoader.load(Objects.requireNonNull(CreateWindows.class.getResource("Welcome.fxml")));
+        Scene sceneC= new Scene(root, 690,518);
+        Stage stage= (Stage) SignupButton.getScene().getWindow();
+
+        stage.setTitle("Welcome");
+        stage.setScene(sceneC);
+        stage.setResizable(false);
+        stage.show();
     }
 }

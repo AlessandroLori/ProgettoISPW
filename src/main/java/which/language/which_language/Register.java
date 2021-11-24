@@ -21,6 +21,7 @@ public class Register extends Application{
         stage.setScene(sceneRegister);
         stage.setResizable(false);
         stage.show();
+        //CreateWindow.login(ciao);
     }
 }
 
@@ -32,3 +33,7 @@ public class Register extends Application{
 
 //TODO cambiare scene per passare da gui a gui senza creare nuovi stage ogni volta (altrimenti codice ripetuto o responsabilità
 //TODO tutta ad un'unica classe che è sbagliato) forse meglio usare STACKPANE
+
+//su registercontrollerG extends a createwindows prende file fxml e variabili, manda a createwindows su create e crea GUI
+
+//TODO classifica utenti migliori per statistica e review, classifica libri migliori comprati

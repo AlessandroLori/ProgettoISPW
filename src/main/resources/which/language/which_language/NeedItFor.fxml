@@ -8,7 +8,6 @@
 <?import javafx.scene.text.Font?>
 <?import javafx.scene.text.Text?>
 
-
 <AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="518.0" prefWidth="690.0" xmlns="http://javafx.com/javafx/17" xmlns:fx="http://javafx.com/fxml/1">
    <children>
       <Pane layoutX="148.0" layoutY="100.0" prefHeight="200.0" prefWidth="200.0" AnchorPane.bottomAnchor="0.0" AnchorPane.leftAnchor="0.0" AnchorPane.rightAnchor="0.0" AnchorPane.topAnchor="0.0">
@@ -94,6 +93,18 @@
             </Text>
             <Rectangle arcHeight="23.0" arcWidth="23.0" fill="#fbff00" height="34.0" layoutX="92.0" layoutY="333.0" stroke="BLACK" strokeType="INSIDE" width="182.0" />
             <Text layoutX="99.0" layoutY="359.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Instruction Set" textAlignment="CENTER" wrappingWidth="167.04296875">
+               <font>
+                  <Font name="Georgia" size="25.0" />
+               </font>
+            </Text>
+            <Rectangle arcHeight="23.0" arcWidth="23.0" fill="#fbff00" height="34.0" layoutX="334.0" layoutY="333.0" stroke="BLACK" strokeType="INSIDE" width="262.0" />
+            <Text layoutX="334.0" layoutY="359.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Software Development" textAlignment="CENTER" wrappingWidth="262.04296875">
+               <font>
+                  <Font name="Georgia" size="25.0" />
+               </font>
+            </Text>
+            <Rectangle arcHeight="23.0" arcWidth="23.0" fill="#fbff00" height="34.0" layoutX="213.0" layoutY="392.0" stroke="BLACK" strokeType="INSIDE" width="242.0" />
+            <Text layoutX="282.0" layoutY="418.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Esoteric" textAlignment="CENTER" wrappingWidth="103.04296875">
                <font>
                   <Font name="Georgia" size="25.0" />
                </font>
