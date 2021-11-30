@@ -34,7 +34,7 @@
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/../../Homework/PessimisticCoverage" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
   </component>
   <component name="RunManager">
     <configuration name="Register" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
@@ -86,6 +86,7 @@
       <workItem from="1637661139734" duration="1405000" />
       <workItem from="1637679830251" duration="3725000" />
       <workItem from="1637739077300" duration="1761000" />
+      <workItem from="1638296106958" duration="511000" />
     </task>
     <servers />
   </component>

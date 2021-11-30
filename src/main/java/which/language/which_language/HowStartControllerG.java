@@ -12,23 +12,21 @@ import java.net.URL;
 import java.util.Objects;
 import java.util.ResourceBundle;
 
-public class WelcomeControllerG implements Initializable {
+public class HowStartControllerG implements Initializable{
+    @FXML
+    private Button UsingWhichLang;
 
     @FXML
-    private Button StartButton;
-
-    @FXML
-    private void HowStart() throws Exception{
-        Parent root= FXMLLoader.load(Objects.requireNonNull(getClass().getResource("LearningQuestion.fxml")));
+    private void StartWithPlat() throws Exception{ //metodo con stesso nome fxml onAction
+        Parent root= FXMLLoader.load(Objects.requireNonNull(getClass().getResource("StartWithPlat.fxml")));
         Scene sceneC= new Scene(root, 690,518);
-        Stage stage= (Stage) StartButton.getScene().getWindow();
+        Stage stage= (Stage) UsingWhichLang.getScene().getWindow();
 
-        stage.setTitle("Learning Question");
+        stage.setTitle("StartWithPlatform");
         stage.setScene(sceneC);
         stage.setResizable(false);
         stage.show();
     }
-
     @Override
     public void initialize(URL url, ResourceBundle resourceBundle) {
 

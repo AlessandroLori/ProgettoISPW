@@ -12,16 +12,16 @@ import java.net.URL;
 import java.util.Objects;
 import java.util.ResourceBundle;
 
-public class WelcomeControllerG implements Initializable {
+public class StartWithPlatControllerG implements Initializable {
 
     @FXML
-    private Button StartButton;
+    private Button DiscoverBestLang;
 
     @FXML
-    private void HowStart() throws Exception{
-        Parent root= FXMLLoader.load(Objects.requireNonNull(getClass().getResource("LearningQuestion.fxml")));
+    private void NeedItFor() throws Exception{
+        Parent root= FXMLLoader.load(Objects.requireNonNull(getClass().getResource("NeedItFor.fxml")));
         Scene sceneC= new Scene(root, 690,518);
-        Stage stage= (Stage) StartButton.getScene().getWindow();
+        Stage stage= (Stage) DiscoverBestLang.getScene().getWindow();
 
         stage.setTitle("Learning Question");
         stage.setScene(sceneC);

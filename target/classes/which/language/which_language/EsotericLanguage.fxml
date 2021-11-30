@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.layout.Pane?>
+<?import javafx.scene.shape.Rectangle?>
+<?import javafx.scene.text.Font?>
+<?import javafx.scene.text.Text?>
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="518.0" prefWidth="690.0" xmlns="http://javafx.com/javafx/17" xmlns:fx="http://javafx.com/fxml/1">
+   <children>
+      <Pane layoutX="148.0" layoutY="100.0" prefHeight="200.0" prefWidth="200.0" AnchorPane.bottomAnchor="0.0" AnchorPane.leftAnchor="0.0" AnchorPane.rightAnchor="0.0" AnchorPane.topAnchor="0.0">
+         <children>
+            <ImageView fitHeight="518.0" fitWidth="690.0">
+               <image>
+                  <Image url="@Images/R2.jpg" />
+               </image>
+            </ImageView>
+            <Rectangle fill="#ff8d00" height="43.0" stroke="BLACK" strokeType="INSIDE" width="690.0" />
+            <Text layoutX="180.0" layoutY="33.0" strokeType="OUTSIDE" strokeWidth="0.0" text="WHICH LANGUAGE" textAlignment="CENTER" wrappingWidth="339.04296875">
+               <font>
+                  <Font name="Georgia" size="35.0" />
+               </font>
+            </Text>
+            <ImageView fitHeight="37.0" fitWidth="37.0" layoutX="644.0" layoutY="3.0">
+               <image>
+                  <Image url="@Images/icons8-user-64.png" />
+               </image>
+            </ImageView>
+            <ImageView fitHeight="37.0" fitWidth="37.0" layoutX="7.0" layoutY="3.0">
+               <image>
+                  <Image url="@Images/icons8-menu-24.png" />
+               </image>
+            </ImageView>
+            <Rectangle arcHeight="23.0" arcWidth="23.0" fill="#ff8d00" height="43.0" layoutX="116.0" layoutY="78.0" stroke="BLACK" strokeType="INSIDE" width="467.0" />
+            <ImageView fitHeight="40.0" fitWidth="40.0" layoutX="119.0" layoutY="80.0">
+               <image>
+                  <Image url="@Images/icons8-source-cod.png" />
+               </image>
+            </ImageView>
+            <ImageView fitHeight="40.0" fitWidth="40.0" layoutX="541.0" layoutY="80.0">
+               <image>
+                  <Image url="@Images/icons8-source-cod.png" />
+               </image>
+            </ImageView>
+            <Text layoutX="159.0" layoutY="110.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Esoteric Lanugage (for fun)" textAlignment="CENTER" wrappingWidth="382.0">
+               <font>
+                  <Font name="Georgia" size="30.0" />
+               </font>
+            </Text>
+            <Rectangle arcHeight="23.0" arcWidth="23.0" fill="#fbff00" height="34.0" layoutX="92.0" layoutY="231.0" stroke="BLACK" strokeType="INSIDE" width="135.0" />
+            <Text layoutX="98.0" layoutY="257.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Unlambda" textAlignment="CENTER" wrappingWidth="124.0">
+               <font>
+                  <Font name="Georgia" size="25.0" />
+               </font>
+            </Text>
+            <Rectangle arcHeight="23.0" arcWidth="23.0" fill="#fbff00" height="34.0" layoutX="305.0" layoutY="231.0" stroke="BLACK" strokeType="INSIDE" width="68.0" />
+            <Text layoutX="305.0" layoutY="257.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Cow" textAlignment="CENTER" wrappingWidth="68.0">
+               <font>
+                  <Font name="Georgia" size="25.0" />
+               </font>
+            </Text>
+            <Rectangle arcHeight="23.0" arcWidth="23.0" fill="#fbff00" height="34.0" layoutX="463.0" layoutY="231.0" stroke="BLACK" strokeType="INSIDE" width="155.0" />
+            <Text layoutX="467.0" layoutY="257.0" strokeType="OUTSIDE" strokeWidth="0.0" text="GomorraSQL" textAlignment="CENTER" wrappingWidth="148.0">
+               <font>
+                  <Font name="Georgia" size="25.0" />
+               </font>
+            </Text>
+         </children>
+      </Pane>
+   </children>
+</AnchorPane>
