@@ -1,5 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 
+<?import javafx.scene.Cursor?>
+<?import javafx.scene.control.Button?>
 <?import javafx.scene.image.Image?>
 <?import javafx.scene.image.ImageView?>
 <?import javafx.scene.layout.AnchorPane?>
@@ -61,6 +63,11 @@
                   <Font name="Georgia" size="25.0" />
                </font>
             </Text>
+            <Button fx:id="PythonButton" layoutX="140.0" layoutY="231.0" mnemonicParsing="false" onAction="#Python" opacity="0.0" prefHeight="34.0" prefWidth="95.0" text="Button">
+               <cursor>
+                  <Cursor fx:constant="HAND" />
+               </cursor>
+            </Button>
             <Rectangle arcHeight="23.0" arcWidth="23.0" fill="#fbff00" height="34.0" layoutX="469.0" layoutY="231.0" stroke="BLACK" strokeType="INSIDE" width="136.0" />
             <Text layoutX="469.0" layoutY="257.0" strokeType="OUTSIDE" strokeWidth="0.0" text="JavaScrypt" textAlignment="CENTER" wrappingWidth="136.04296875">
                <font>

@@ -10,10 +10,15 @@
 <?import javafx.scene.text.Font?>
 <?import javafx.scene.text.Text?>
 
-<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="518.0" prefWidth="690.0" xmlns="http://javafx.com/javafx/17" xmlns:fx="http://javafx.com/fxml/1">
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="518.0" prefWidth="690.0" xmlns="http://javafx.com/javafx/17" xmlns:fx="http://javafx.com/fxml/1" fx:controller="which.language.which_language.NeedItForControllerG">
    <children>
       <Pane layoutX="148.0" layoutY="100.0" prefHeight="200.0" prefWidth="200.0" AnchorPane.bottomAnchor="0.0" AnchorPane.leftAnchor="0.0" AnchorPane.rightAnchor="0.0" AnchorPane.topAnchor="0.0">
          <children>
+            <Button layoutX="506.0" layoutY="176.0" mnemonicParsing="false" opacity="0.0" prefHeight="34.0" prefWidth="122.0" text="Button">
+               <cursor>
+                  <Cursor fx:constant="HAND" />
+               </cursor>
+            </Button>
             <ImageView fitHeight="518.0" fitWidth="690.0">
                <image>
                   <Image url="@Images/R2.jpg" />
@@ -57,7 +62,7 @@
                   <Font name="Georgia" size="25.0" />
                </font>
             </Text>
-            <Button layoutX="244.0" layoutY="176.0" mnemonicParsing="false" opacity="0.0" prefHeight="34.0" prefWidth="212.0" text="Button">
+            <Button fx:id="WebDevelopButton" layoutX="244.0" layoutY="176.0" mnemonicParsing="false" onAction="#WebDevelop" opacity="0.0" prefHeight="34.0" prefWidth="212.0" text="Button">
                <cursor>
                   <Cursor fx:constant="HAND" />
                </cursor>
@@ -68,7 +73,7 @@
                   <Font name="Georgia" size="25.0" />
                </font>
             </Text>
-            <Button layoutX="62.0" layoutY="176.0" mnemonicParsing="false" opacity="0.0" prefHeight="34.0" prefWidth="122.0" text="Button">
+            <Button fx:id="ScryptingButton" layoutX="62.0" layoutY="176.0" mnemonicParsing="false" onAction="#Scrypting" opacity="0.0" prefHeight="34.0" prefWidth="122.0" text="Button">
                <cursor>
                   <Cursor fx:constant="HAND" />
                </cursor>
@@ -79,7 +84,7 @@
                   <Font name="Georgia" size="25.0" />
                </font>
             </Text>
-            <Button layoutX="506.0" layoutY="176.0" mnemonicParsing="false" opacity="0.0" prefHeight="34.0" prefWidth="122.0" text="Button">
+            <Button fx:id="DataBaseButton" layoutX="505.0" layoutY="176.0" mnemonicParsing="false" onAction="#DataBase" opacity="0.0" prefHeight="34.0" prefWidth="122.0" text="Button">
                <cursor>
                   <Cursor fx:constant="HAND" />
                </cursor>
@@ -90,7 +95,7 @@
                   <Font name="Georgia" size="25.0" />
                </font>
             </Text>
-            <Button layoutX="100.0" layoutY="236.0" mnemonicParsing="false" opacity="0.0" prefHeight="34.0" prefWidth="242.0" text="Button">
+            <Button fx:id="AIButton" layoutX="101.0" layoutY="236.0" mnemonicParsing="false" onAction="#AI" opacity="0.0" prefHeight="34.0" prefWidth="242.0" text="Button">
                <cursor>
                   <Cursor fx:constant="HAND" />
                </cursor>
@@ -101,7 +106,7 @@
                   <Font name="Georgia" size="25.0" />
                </font>
             </Text>
-            <Button layoutX="375.0" layoutY="236.0" mnemonicParsing="false" opacity="0.0" prefHeight="34.0" prefWidth="235.0" text="Button">
+            <Button fx:id="GameDevButton" layoutX="375.0" layoutY="236.0" mnemonicParsing="false" onAction="#GameDev" opacity="0.0" prefHeight="34.0" prefWidth="235.0" text="Button">
                <cursor>
                   <Cursor fx:constant="HAND" />
                </cursor>
@@ -112,7 +117,7 @@
                   <Font name="Georgia" size="25.0" />
                </font>
             </Text>
-            <Button layoutX="62.0" layoutY="300.0" mnemonicParsing="false" opacity="0.0" prefHeight="34.0" prefWidth="220.0" text="Button">
+            <Button fx:id="MachineLearningButton" layoutX="62.0" layoutY="300.0" mnemonicParsing="false" onAction="#MachineLearning" opacity="0.0" prefHeight="34.0" prefWidth="220.0" text="Button">
                <cursor>
                   <Cursor fx:constant="HAND" />
                </cursor>
@@ -123,7 +128,7 @@
                   <Font name="Georgia" size="25.0" />
                </font>
             </Text>
-            <Button layoutX="350.0" layoutY="300.0" mnemonicParsing="false" opacity="0.0" prefHeight="34.0" prefWidth="242.0" text="Button">
+            <Button fx:id="MobileDevButton" layoutX="350.0" layoutY="300.0" mnemonicParsing="false" onAction="#MobileDev" opacity="0.0" prefHeight="34.0" prefWidth="242.0" text="Button">
                <cursor>
                   <Cursor fx:constant="HAND" />
                </cursor>
@@ -134,7 +139,7 @@
                   <Font name="Georgia" size="25.0" />
                </font>
             </Text>
-            <Button layoutX="339.0" layoutY="361.0" mnemonicParsing="false" opacity="0.0" prefHeight="34.0" prefWidth="262.0" text="Button">
+            <Button fx:id="SoftDevButton" layoutX="339.0" layoutY="361.0" mnemonicParsing="false" onAction="#SoftDev" opacity="0.0" prefHeight="34.0" prefWidth="262.0" text="Button">
                <cursor>
                   <Cursor fx:constant="HAND" />
                </cursor>
@@ -145,7 +150,7 @@
                   <Font name="Georgia" size="25.0" />
                </font>
             </Text>
-            <Button layoutX="115.0" layoutY="361.0" mnemonicParsing="false" opacity="0.0" prefHeight="34.0" prefWidth="167.0" text="Button">
+            <Button fx:id="FunEsoButton" layoutX="115.0" layoutY="361.0" mnemonicParsing="false" onAction="#Esoteric" opacity="0.0" prefHeight="34.0" prefWidth="167.0" text="Button">
                <cursor>
                   <Cursor fx:constant="HAND" />
                </cursor>
