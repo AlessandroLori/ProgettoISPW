@@ -1,0 +1,89 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.layout.Pane?>
+<?import javafx.scene.shape.Rectangle?>
+<?import javafx.scene.text.Font?>
+<?import javafx.scene.text.Text?>
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="518.0" prefWidth="690.0" xmlns="http://javafx.com/javafx/17" xmlns:fx="http://javafx.com/fxml/1">
+   <children>
+      <Pane layoutX="148.0" layoutY="100.0" prefHeight="200.0" prefWidth="200.0" AnchorPane.bottomAnchor="0.0" AnchorPane.leftAnchor="0.0" AnchorPane.rightAnchor="0.0" AnchorPane.topAnchor="0.0">
+         <children>
+            <ImageView fitHeight="518.0" fitWidth="690.0">
+               <image>
+                  <Image url="@Images/R2.jpg" />
+               </image>
+            </ImageView>
+            <Rectangle fill="#ff8d00" height="43.0" stroke="BLACK" strokeType="INSIDE" width="690.0" />
+            <Text layoutX="180.0" layoutY="33.0" strokeType="OUTSIDE" strokeWidth="0.0" text="WHICH LANGUAGE" textAlignment="CENTER" wrappingWidth="339.04296875">
+               <font>
+                  <Font name="Georgia" size="35.0" />
+               </font>
+            </Text>
+            <ImageView fitHeight="37.0" fitWidth="37.0" layoutX="644.0" layoutY="3.0">
+               <image>
+                  <Image url="@Images/icons8-user-64.png" />
+               </image>
+            </ImageView>
+            <ImageView fitHeight="37.0" fitWidth="37.0" layoutX="7.0" layoutY="3.0">
+               <image>
+                  <Image url="@Images/icons8-menu-24.png" />
+               </image>
+            </ImageView>
+            <Rectangle arcHeight="23.0" arcWidth="23.0" fill="#ff8d00" height="43.0" layoutX="230.0" layoutY="79.0" stroke="BLACK" strokeType="INSIDE" width="231.0" />
+            <ImageView fitHeight="40.0" fitWidth="40.0" layoutX="234.0" layoutY="81.0">
+               <image>
+                  <Image url="@Images/icons8-source-cod.png" />
+               </image>
+            </ImageView>
+            <ImageView fitHeight="40.0" fitWidth="40.0" layoutX="421.0" layoutY="81.0">
+               <image>
+                  <Image url="@Images/icons8-source-cod.png" />
+               </image>
+            </ImageView>
+            <Text layoutX="275.0" layoutY="111.0" strokeType="OUTSIDE" strokeWidth="0.0" text="C#" textAlignment="CENTER" wrappingWidth="129.0">
+               <font>
+                  <Font name="Georgia" size="30.0" />
+               </font>
+            </Text>
+            <Rectangle arcHeight="23.0" arcWidth="23.0" fill="#fbff00" height="34.0" layoutX="293.0" layoutY="225.0" stroke="BLACK" strokeType="INSIDE" width="95.0" />
+            <Text layoutX="296.0" layoutY="251.0" strokeType="OUTSIDE" strokeWidth="0.0" text="IDEs" textAlignment="CENTER" wrappingWidth="89.0">
+               <font>
+                  <Font name="Georgia" size="25.0" />
+               </font>
+            </Text>
+            <Rectangle arcHeight="23.0" arcWidth="23.0" fill="#fbff00" height="34.0" layoutX="162.0" layoutY="156.0" stroke="BLACK" strokeType="INSIDE" width="68.0" />
+            <Text layoutX="162.0" layoutY="182.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Wiki" textAlignment="CENTER" wrappingWidth="68.0">
+               <font>
+                  <Font name="Georgia" size="25.0" />
+               </font>
+            </Text>
+            <Rectangle arcHeight="23.0" arcWidth="23.0" fill="#fbff00" height="34.0" layoutX="455.0" layoutY="156.0" stroke="BLACK" strokeType="INSIDE" width="129.0" />
+            <Text layoutX="461.0" layoutY="181.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Projects" textAlignment="CENTER" wrappingWidth="117.0">
+               <font>
+                  <Font name="Georgia" size="25.0" />
+               </font>
+            </Text>
+            <Rectangle arcHeight="23.0" arcWidth="23.0" fill="#fbff00" height="34.0" layoutX="186.0" layoutY="292.0" stroke="BLACK" strokeType="INSIDE" width="328.0" />
+            <Text layoutX="192.0" layoutY="318.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Best IDE=" textAlignment="CENTER" wrappingWidth="117.0">
+               <font>
+                  <Font name="Georgia" size="25.0" />
+               </font>
+            </Text>
+            <Text layoutX="305.0" layoutY="318.0" strokeType="OUTSIDE" strokeWidth="0.0" text="VisualStudioCode" textAlignment="CENTER" wrappingWidth="203.0">
+               <font>
+                  <Font name="Georgia" size="25.0" />
+               </font>
+            </Text>
+            <ImageView fitHeight="25.0" fitWidth="25.0" layoutX="392.0" layoutY="89.0">
+               <image>
+                  <Image url="@Images/icons8-star-50.png" />
+               </image>
+            </ImageView>
+         </children>
+      </Pane>
+   </children>
+</AnchorPane>
