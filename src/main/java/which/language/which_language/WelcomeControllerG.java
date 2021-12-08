@@ -18,8 +18,8 @@ public class WelcomeControllerG implements Initializable {
     private Button StartButton;
 
     @FXML
-    private void HowStart() throws Exception{
-        Parent root= FXMLLoader.load(Objects.requireNonNull(getClass().getResource("LearningQuestion.fxml")));
+    private void StartPlat() throws Exception{
+        Parent root= FXMLLoader.load(Objects.requireNonNull(getClass().getResource("StartWithPlat.fxml")));
         Scene sceneC= new Scene(root, 690,518);
         Stage stage= (Stage) StartButton.getScene().getWindow();
 

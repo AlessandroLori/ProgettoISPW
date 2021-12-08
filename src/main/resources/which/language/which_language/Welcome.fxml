@@ -62,7 +62,7 @@
             <Font name="Georgia" size="24.0" />
          </font>
       </Text>
-      <Button fx:id="StartButton" layoutX="112.0" layoutY="420.0" mnemonicParsing="false" onAction="#HowStart" opacity="0.0" prefHeight="37.0" prefWidth="189.0" text="Button">
+      <Button fx:id="StartButton" layoutX="112.0" layoutY="420.0" mnemonicParsing="false" onAction="#StartPlat" opacity="0.0" prefHeight="37.0" prefWidth="189.0" text="Button">
          <cursor>
             <Cursor fx:constant="HAND" />
          </cursor></Button>
