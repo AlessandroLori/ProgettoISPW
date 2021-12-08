@@ -68,8 +68,14 @@
             <Font name="Georgia" size="25.0" />
          </font>
       </Text>
-      <Button layoutX="41.0" layoutY="308.0" mnemonicParsing="false" opacity="0.0" prefHeight="34.0" prefWidth="197.0" text="Button" />
-      <Button layoutX="471.0" layoutY="305.0" mnemonicParsing="false" opacity="0.0" prefHeight="37.0" prefWidth="189.0" text="Button" />
+      <Button layoutX="41.0" layoutY="308.0" mnemonicParsing="false" opacity="0.0" prefHeight="34.0" prefWidth="197.0" text="Button">
+         <cursor>
+            <Cursor fx:constant="HAND" />
+         </cursor></Button>
+      <Button fx:id="ChProjectButton" layoutX="471.0" layoutY="305.0" mnemonicParsing="false" onAction="#Projects" opacity="0.0" prefHeight="37.0" prefWidth="189.0" text="Button">
+         <cursor>
+            <Cursor fx:constant="HAND" />
+         </cursor></Button>
       <Button fx:id="DiscoverBestLang" layoutX="171.0" layoutY="225.0" mnemonicParsing="false" onAction="#NeedItFor" opacity="0.0" prefHeight="34.0" prefWidth="359.0" text="Button">
          <cursor>
             <Cursor fx:constant="HAND" />
