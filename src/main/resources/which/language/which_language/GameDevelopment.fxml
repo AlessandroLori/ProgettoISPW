@@ -10,7 +10,7 @@
 <?import javafx.scene.text.Font?>
 <?import javafx.scene.text.Text?>
 
-<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="518.0" prefWidth="690.0" xmlns="http://javafx.com/javafx/17" xmlns:fx="http://javafx.com/fxml/1" fx:controller="">
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="518.0" prefWidth="690.0" xmlns="http://javafx.com/javafx/17" xmlns:fx="http://javafx.com/fxml/1" fx:controller="which.language.which_language.GameDevControllerG">
    <children>
       <Pane layoutX="148.0" layoutY="100.0" prefHeight="200.0" prefWidth="200.0" AnchorPane.bottomAnchor="0.0" AnchorPane.leftAnchor="0.0" AnchorPane.rightAnchor="0.0" AnchorPane.topAnchor="0.0">
          <children>
@@ -68,24 +68,44 @@
                   <Font name="Georgia" size="25.0" />
                </font>
             </Text>
+            <Button fx:id="CsharpButton" layoutX="215.0" layoutY="329.0" mnemonicParsing="false" onAction="#Csharp" opacity="0.0" prefHeight="34.0" prefWidth="51.0" text="Button">
+               <cursor>
+                  <Cursor fx:constant="HAND" />
+               </cursor>
+            </Button>
             <Rectangle arcHeight="23.0" arcWidth="23.0" fill="#fbff00" height="34.0" layoutX="305.0" layoutY="231.0" stroke="BLACK" strokeType="INSIDE" width="68.0" />
             <Text layoutX="305.0" layoutY="257.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Java" textAlignment="CENTER" wrappingWidth="68.0">
                <font>
                   <Font name="Georgia" size="25.0" />
                </font>
             </Text>
+            <Button fx:id="JavaButton" layoutX="305.0" layoutY="231.0" mnemonicParsing="false" onAction="#Java" opacity="0.0" prefHeight="34.0" prefWidth="68.0" text="Button">
+               <cursor>
+                  <Cursor fx:constant="HAND" />
+               </cursor>
+            </Button>
             <Rectangle arcHeight="23.0" arcWidth="23.0" fill="#fbff00" height="34.0" layoutX="429.0" layoutY="329.0" stroke="BLACK" strokeType="INSIDE" width="68.0" />
             <Text layoutX="438.0" layoutY="355.0" strokeType="OUTSIDE" strokeWidth="0.0" text="C++" textAlignment="CENTER" wrappingWidth="51.0">
                <font>
                   <Font name="Georgia" size="25.0" />
                </font>
             </Text>
+            <Button fx:id="CppButton" layoutX="429.0" layoutY="329.0" mnemonicParsing="false" onAction="#Cpp" opacity="0.0" prefHeight="34.0" prefWidth="68.0" text="Button">
+               <cursor>
+                  <Cursor fx:constant="HAND" />
+               </cursor>
+            </Button>
             <Rectangle arcHeight="23.0" arcWidth="23.0" fill="#fbff00" height="34.0" layoutX="463.0" layoutY="231.0" stroke="BLACK" strokeType="INSIDE" width="68.0" />
             <Text layoutX="472.0" layoutY="257.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Lua" textAlignment="CENTER" wrappingWidth="51.0">
                <font>
                   <Font name="Georgia" size="25.0" />
                </font>
             </Text>
+            <Button fx:id="LuaButton" layoutX="463.0" layoutY="231.0" mnemonicParsing="false" onAction="#Lua" opacity="0.0" prefHeight="34.0" prefWidth="68.0" text="Button">
+               <cursor>
+                  <Cursor fx:constant="HAND" />
+               </cursor>
+            </Button>
          </children>
       </Pane>
    </children>

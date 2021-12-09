@@ -10,7 +10,7 @@
 <?import javafx.scene.text.Font?>
 <?import javafx.scene.text.Text?>
 
-<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="518.0" prefWidth="690.0" xmlns="http://javafx.com/javafx/17" xmlns:fx="http://javafx.com/fxml/1">
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="518.0" prefWidth="690.0" xmlns="http://javafx.com/javafx/17" xmlns:fx="http://javafx.com/fxml/1" fx:controller="which.language.which_language.ScryptingControllerG">
    <children>
       <Pane layoutX="148.0" layoutY="100.0" prefHeight="200.0" prefWidth="200.0" AnchorPane.bottomAnchor="0.0" AnchorPane.leftAnchor="0.0" AnchorPane.rightAnchor="0.0" AnchorPane.topAnchor="0.0">
          <children>
@@ -57,6 +57,11 @@
                   <Font name="Georgia" size="25.0" />
                </font>
             </Text>
+            <Button fx:id="RubyButton" layoutX="302.0" layoutY="231.0" mnemonicParsing="false" onAction="#Ruby" opacity="0.0" prefHeight="34.0" prefWidth="83.0" text="Button">
+               <cursor>
+                  <Cursor fx:constant="HAND" />
+               </cursor>
+            </Button>
             <Rectangle arcHeight="23.0" arcWidth="23.0" fill="#fbff00" height="34.0" layoutX="140.0" layoutY="231.0" stroke="BLACK" strokeType="INSIDE" width="95.0" />
             <Text layoutX="146.0" layoutY="257.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Python" textAlignment="CENTER" wrappingWidth="83.0">
                <font>
@@ -74,18 +79,33 @@
                   <Font name="Georgia" size="25.0" />
                </font>
             </Text>
+            <Button fx:id="JavaScryptButton" layoutX="469.0" layoutY="231.0" mnemonicParsing="false" onAction="#JavaScrypt" opacity="0.0" prefHeight="34.0" prefWidth="136.0" text="Button">
+               <cursor>
+                  <Cursor fx:constant="HAND" />
+               </cursor>
+            </Button>
             <Rectangle arcHeight="23.0" arcWidth="23.0" fill="#fbff00" height="34.0" layoutX="218.0" layoutY="327.0" stroke="BLACK" strokeType="INSIDE" width="68.0" />
             <Text layoutX="226.0" layoutY="353.0" strokeType="OUTSIDE" strokeWidth="0.0" text="PHP" textAlignment="CENTER" wrappingWidth="51.04296875">
                <font>
                   <Font name="Georgia" size="25.0" />
                </font>
             </Text>
+            <Button fx:id="PythonButton12" layoutX="218.0" layoutY="327.0" mnemonicParsing="false" onAction="#Python" opacity="0.0" prefHeight="34.0" prefWidth="68.0" text="Button">
+               <cursor>
+                  <Cursor fx:constant="HAND" />
+               </cursor>
+            </Button>
             <Rectangle arcHeight="23.0" arcWidth="23.0" fill="#fbff00" height="34.0" layoutX="399.0" layoutY="327.0" stroke="BLACK" strokeType="INSIDE" width="51.0" />
             <Text layoutX="409.0" layoutY="353.0" strokeType="OUTSIDE" strokeWidth="0.0" text="R" textAlignment="CENTER" wrappingWidth="31.0">
                <font>
                   <Font name="Georgia" size="25.0" />
                </font>
             </Text>
+            <Button fx:id="RButton" layoutX="399.0" layoutY="327.0" mnemonicParsing="false" onAction="#R" opacity="0.0" prefHeight="34.0" prefWidth="51.0" text="Button">
+               <cursor>
+                  <Cursor fx:constant="HAND" />
+               </cursor>
+            </Button>
          </children>
       </Pane>
    </children>

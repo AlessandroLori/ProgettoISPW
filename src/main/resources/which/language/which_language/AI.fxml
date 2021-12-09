@@ -57,6 +57,11 @@
                   <Font name="Georgia" size="25.0" />
                </font>
             </Text>
+            <Button fx:id="LISPButton" layoutX="302.0" layoutY="231.0" mnemonicParsing="false" onAction="#LISP" opacity="0.0" prefHeight="34.0" prefWidth="84.0" text="Button">
+               <cursor>
+                  <Cursor fx:constant="HAND" />
+               </cursor>
+            </Button>
             <Rectangle arcHeight="23.0" arcWidth="23.0" fill="#fbff00" height="34.0" layoutX="119.0" layoutY="231.0" stroke="BLACK" strokeType="INSIDE" width="95.0" />
             <Text layoutX="125.0" layoutY="257.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Python" textAlignment="CENTER" wrappingWidth="83.0">
                <font>
@@ -74,18 +79,33 @@
                   <Font name="Georgia" size="25.0" />
                </font>
             </Text>
+            <Button fx:id="CppButton" layoutX="485.0" layoutY="231.0" mnemonicParsing="false" onAction="#Cpp" opacity="0.0" prefHeight="34.0" prefWidth="68.0" text="Button">
+               <cursor>
+                  <Cursor fx:constant="HAND" />
+               </cursor>
+            </Button>
             <Rectangle arcHeight="23.0" arcWidth="23.0" fill="#fbff00" height="34.0" layoutX="399.0" layoutY="327.0" stroke="BLACK" strokeType="INSIDE" width="51.0" />
             <Text layoutX="409.0" layoutY="353.0" strokeType="OUTSIDE" strokeWidth="0.0" text="R" textAlignment="CENTER" wrappingWidth="31.0">
                <font>
                   <Font name="Georgia" size="25.0" />
                </font>
             </Text>
+            <Button fx:id="RButton" layoutX="399.0" layoutY="327.0" mnemonicParsing="false" onAction="#R" opacity="0.0" prefHeight="34.0" prefWidth="51.0" text="Button">
+               <cursor>
+                  <Cursor fx:constant="HAND" />
+               </cursor>
+            </Button>
             <Rectangle arcHeight="23.0" arcWidth="23.0" fill="#fbff00" height="34.0" layoutX="214.0" layoutY="329.0" stroke="BLACK" strokeType="INSIDE" width="68.0" />
             <Text layoutX="214.0" layoutY="355.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Java" textAlignment="CENTER" wrappingWidth="68.0">
                <font>
                   <Font name="Georgia" size="25.0" />
                </font>
             </Text>
+            <Button fx:id="JavaButton" layoutX="214.0" layoutY="329.0" mnemonicParsing="false" onAction="#Java" opacity="0.0" prefHeight="34.0" prefWidth="68.0" text="Button">
+               <cursor>
+                  <Cursor fx:constant="HAND" />
+               </cursor>
+            </Button>
          </children>
       </Pane>
    </children>

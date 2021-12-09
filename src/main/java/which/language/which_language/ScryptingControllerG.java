@@ -12,19 +12,18 @@ import java.net.URL;
 import java.util.Objects;
 import java.util.ResourceBundle;
 
-public class MachineLearningControllerG implements Initializable {
+public class ScryptingControllerG implements Initializable{
 
     @FXML
     private Button PythonButton;
     @FXML
-    private Button JavaButton;
+    private Button RubyButton;
     @FXML
-    private Button CppButton;
+    private Button JavaScryptButton;
     @FXML
-    private Button CButton;
+    private Button PHPButton;
     @FXML
     private Button RButton;
-
 
     @FXML
     private void Python() throws Exception{
@@ -39,36 +38,36 @@ public class MachineLearningControllerG implements Initializable {
     }
 
     @FXML
-    private void Java() throws Exception{
-        Parent root= FXMLLoader.load(Objects.requireNonNull(getClass().getResource("Java.fxml")));
+    private void Ruby() throws Exception{
+        Parent root= FXMLLoader.load(Objects.requireNonNull(getClass().getResource("Ruby.fxml")));
         Scene sceneC= new Scene(root, 690,518);
-        Stage stage= (Stage) JavaButton.getScene().getWindow();
+        Stage stage= (Stage) RubyButton.getScene().getWindow();
 
-        stage.setTitle("WhichLanguage");
+        stage.setTitle("Ruby");
         stage.setScene(sceneC);
         stage.setResizable(false);
         stage.show();
     }
 
     @FXML
-    private void Cpp() throws Exception{
-        Parent root= FXMLLoader.load(Objects.requireNonNull(getClass().getResource("C++.fxml")));
+    private void JavaScrypt() throws Exception{
+        Parent root= FXMLLoader.load(Objects.requireNonNull(getClass().getResource("JavaScrypt.fxml")));
         Scene sceneC= new Scene(root, 690,518);
-        Stage stage= (Stage) CppButton.getScene().getWindow();
+        Stage stage= (Stage) JavaScryptButton.getScene().getWindow();
 
-        stage.setTitle("Python");
+        stage.setTitle("JavaScrypt");
         stage.setScene(sceneC);
         stage.setResizable(false);
         stage.show();
     }
 
     @FXML
-    private void C() throws Exception{
-        Parent root= FXMLLoader.load(Objects.requireNonNull(getClass().getResource("C.fxml")));
+    private void PHP() throws Exception{
+        Parent root= FXMLLoader.load(Objects.requireNonNull(getClass().getResource("PHP.fxml")));
         Scene sceneC= new Scene(root, 690,518);
-        Stage stage= (Stage) CButton.getScene().getWindow();
+        Stage stage= (Stage) PHPButton.getScene().getWindow();
 
-        stage.setTitle("WhichLanguage");
+        stage.setTitle("PHP");
         stage.setScene(sceneC);
         stage.setResizable(false);
         stage.show();
@@ -78,9 +77,9 @@ public class MachineLearningControllerG implements Initializable {
     private void R() throws Exception{
         Parent root= FXMLLoader.load(Objects.requireNonNull(getClass().getResource("R.fxml")));
         Scene sceneC= new Scene(root, 690,518);
-        Stage stage= (Stage) RButton.getScene().getWindow();
+        Stage stage= (Stage) RubyButton.getScene().getWindow();
 
-        stage.setTitle("WhichLanguage");
+        stage.setTitle("R");
         stage.setScene(sceneC);
         stage.setResizable(false);
         stage.show();

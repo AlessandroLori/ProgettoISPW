@@ -16,6 +16,14 @@ public class GameDevControllerG implements Initializable {
 
     @FXML
     private Button PythonButton;
+    @FXML
+    private Button CppButton;
+    @FXML
+    private Button JavaButton;
+    @FXML
+    private Button CsharpButton;
+    @FXML
+    private Button LuaButton;
 
     @FXML
     private void Python() throws Exception{
@@ -24,6 +32,54 @@ public class GameDevControllerG implements Initializable {
         Stage stage= (Stage) PythonButton.getScene().getWindow();
 
         stage.setTitle("Python");
+        stage.setScene(sceneC);
+        stage.setResizable(false);
+        stage.show();
+    }
+
+    @FXML
+    private void Java() throws Exception{
+        Parent root= FXMLLoader.load(Objects.requireNonNull(getClass().getResource("Java.fxml")));
+        Scene sceneC= new Scene(root, 690,518);
+        Stage stage= (Stage) JavaButton.getScene().getWindow();
+
+        stage.setTitle("WhichLanguage");
+        stage.setScene(sceneC);
+        stage.setResizable(false);
+        stage.show();
+    }
+
+    @FXML
+    private void Cpp() throws Exception{
+        Parent root= FXMLLoader.load(Objects.requireNonNull(getClass().getResource("C++.fxml")));
+        Scene sceneC= new Scene(root, 690,518);
+        Stage stage= (Stage) CppButton.getScene().getWindow();
+
+        stage.setTitle("WhichLanguage");
+        stage.setScene(sceneC);
+        stage.setResizable(false);
+        stage.show();
+    }
+
+    @FXML
+    private void Csharp() throws Exception{
+        Parent root= FXMLLoader.load(Objects.requireNonNull(getClass().getResource("C#.fxml")));
+        Scene sceneC= new Scene(root, 690,518);
+        Stage stage= (Stage) CsharpButton.getScene().getWindow();
+
+        stage.setTitle("WhichLanguage");
+        stage.setScene(sceneC);
+        stage.setResizable(false);
+        stage.show();
+    }
+
+    @FXML
+    private void Lua() throws Exception{
+        Parent root= FXMLLoader.load(Objects.requireNonNull(getClass().getResource("Lua.fxml")));
+        Scene sceneC= new Scene(root, 690,518);
+        Stage stage= (Stage) LuaButton.getScene().getWindow();
+
+        stage.setTitle("Lua");
         stage.setScene(sceneC);
         stage.setResizable(false);
         stage.show();
