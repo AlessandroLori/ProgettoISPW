@@ -62,7 +62,7 @@ public class WebDevelopmentControllerG implements Initializable{
 
     @FXML
     private void JavaScrypt() throws Exception{
-        Parent root= FXMLLoader.load(Objects.requireNonNull(getClass().getResource("JavaScrypt.fxml")));
+        Parent root= FXMLLoader.load(Objects.requireNonNull(getClass().getResource("JavaScript.fxml")));
         Scene sceneC= new Scene(root, 690,518);
         Stage stage= (Stage) JavaScryptButton.getScene().getWindow();
 
