@@ -49,76 +49,91 @@
                   <Font name="Georgia" size="30.0" />
                </font>
             </Text>
-            <Rectangle arcHeight="23.0" arcWidth="23.0" fill="#fbff00" height="49.0" layoutX="14.0" layoutY="157.0" stroke="BLACK" strokeType="INSIDE" width="370.0" />
-            <Text layoutX="69.0" layoutY="181.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Book Name" textAlignment="CENTER" wrappingWidth="136.04296875">
+            <Rectangle arcHeight="23.0" arcWidth="23.0" fill="#fbff00" height="49.0" layoutX="14.0" layoutY="204.0" stroke="BLACK" strokeType="INSIDE" width="318.0" />
+            <Text layoutX="67.0" layoutY="228.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Learn C The Hard Way" textAlignment="CENTER" wrappingWidth="257.04296875">
                <font>
                   <Font name="Georgia" size="25.0" />
                </font>
             </Text>
-            <Text layoutX="81.0" layoutY="198.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Likes" textAlignment="CENTER" wrappingWidth="37.0">
+            <Text layoutX="81.0" layoutY="245.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Likes" textAlignment="CENTER" wrappingWidth="37.0">
                <font>
                   <Font name="Georgia" size="13.0" />
                </font>
             </Text>
-            <Text layoutX="119.0" layoutY="198.0" strokeType="OUTSIDE" strokeWidth="0.0" text="NLike" textAlignment="CENTER" wrappingWidth="37.0">
+            <Text layoutX="119.0" layoutY="245.0" strokeType="OUTSIDE" strokeWidth="0.0" text="NLike" textAlignment="CENTER" wrappingWidth="37.0">
                <font>
                   <Font name="Georgia" size="13.0" />
                </font>
             </Text>
-            <ImageView fitHeight="25.0" fitWidth="25.0" layoutX="350.0" layoutY="178.0">
-               <image>
-                  <Image url="@Images/immprova.jpg" />
-               </image>
-            </ImageView>
-            <Text layoutX="241.0" layoutY="198.0" strokeType="OUTSIDE" strokeWidth="0.0" text="BY" textAlignment="CENTER" wrappingWidth="22.0">
-               <font>
-                  <Font name="Georgia" size="13.0" />
-               </font>
-            </Text>
-            <Text layoutX="267.0" layoutY="197.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Giorgio" textAlignment="CENTER" wrappingWidth="79.04296875">
-               <font>
-                  <Font name="Georgia" size="18.0" />
-               </font>
-            </Text>
-            <ImageView fitHeight="45.0" fitWidth="45.0" layoutX="22.0" layoutY="159.0">
-               <image>
-                  <Image url="@Images/icons8-java-60.png" />
-               </image>
-            </ImageView>
-            <Rectangle arcHeight="23.0" arcWidth="23.0" fill="#fbff00" height="49.0" layoutX="14.0" layoutY="218.0" stroke="BLACK" strokeType="INSIDE" width="370.0" />
-            <Text layoutX="69.0" layoutY="242.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Book Name" textAlignment="CENTER" wrappingWidth="136.04296875">
+            <Rectangle arcHeight="23.0" arcWidth="23.0" fill="#fbff00" height="49.0" layoutX="14.0" layoutY="265.0" stroke="BLACK" strokeType="INSIDE" width="587.0" />
+            <Text layoutX="68.0" layoutY="289.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Concetti di Informatica e Fondamenti di Python" textAlignment="CENTER" wrappingWidth="529.04296875">
                <font>
                   <Font name="Georgia" size="25.0" />
                </font>
             </Text>
-            <Text layoutX="81.0" layoutY="259.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Likes" textAlignment="CENTER" wrappingWidth="37.0">
+            <Text layoutX="81.0" layoutY="306.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Likes" textAlignment="CENTER" wrappingWidth="37.0">
                <font>
                   <Font name="Georgia" size="13.0" />
                </font>
             </Text>
-            <Text layoutX="119.0" layoutY="259.0" strokeType="OUTSIDE" strokeWidth="0.0" text="NLike" textAlignment="CENTER" wrappingWidth="37.0">
+            <Text layoutX="119.0" layoutY="306.0" strokeType="OUTSIDE" strokeWidth="0.0" text="NLike" textAlignment="CENTER" wrappingWidth="37.0">
                <font>
                   <Font name="Georgia" size="13.0" />
                </font>
             </Text>
-            <Text layoutX="241.0" layoutY="259.0" strokeType="OUTSIDE" strokeWidth="0.0" text="BY" textAlignment="CENTER" wrappingWidth="22.0">
+            <ImageView fitHeight="45.0" fitWidth="45.0" layoutX="22.0" layoutY="206.0">
+               <image>
+                  <Image url="@Images/LearnCTheHardWay.jpg" />
+               </image>
+            </ImageView>
+            <ImageView fitHeight="45.0" fitWidth="45.0" layoutX="22.0" layoutY="267.0">
+               <image>
+                  <Image url="@Images/PythonBook1.jpg" />
+               </image>
+            </ImageView>
+            <Rectangle arcHeight="23.0" arcWidth="23.0" fill="#8aff7a" height="49.0" layoutX="168.0" layoutY="131.0" stroke="BLACK" strokeType="INSIDE" width="354.0" />
+            <Rectangle arcHeight="23.0" arcWidth="23.0" fill="#fbff00" height="34.0" layoutX="180.0" layoutY="138.0" stroke="BLACK" strokeType="INSIDE" width="102.0" />
+            <Text layoutX="189.0" layoutY="162.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Filter By: " textAlignment="CENTER" wrappingWidth="88.04296875">
+               <font>
+                  <Font name="Georgia" size="20.0" />
+               </font>
+            </Text>
+            <Rectangle arcHeight="23.0" arcWidth="23.0" fill="#fbff00" height="34.0" layoutX="300.0" layoutY="138.0" stroke="BLACK" strokeType="INSIDE" width="123.0" />
+            <Text layoutX="307.0" layoutY="162.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Language" textAlignment="CENTER" wrappingWidth="88.04296875">
+               <font>
+                  <Font name="Georgia" size="20.0" />
+               </font>
+            </Text>
+            <ImageView layoutX="395.0" layoutY="143.0">
+               <image>
+                  <Image url="@Images/icons8-expand-arrow-24.png" />
+               </image>
+            </ImageView>
+            <Rectangle arcHeight="23.0" arcWidth="23.0" fill="#fbff00" height="34.0" layoutX="438.0" layoutY="138.0" stroke="BLACK" strokeType="INSIDE" width="71.0" />
+            <Text layoutX="438.0" layoutY="162.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Rating" textAlignment="CENTER" wrappingWidth="71.04296875">
+               <font>
+                  <Font name="Georgia" size="20.0" />
+               </font>
+            </Text>
+            <Rectangle arcHeight="23.0" arcWidth="23.0" fill="#fbff00" height="49.0" layoutX="14.0" layoutY="326.0" stroke="BLACK" strokeType="INSIDE" width="188.0" />
+            <Text layoutX="69.0" layoutY="350.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Book Title" textAlignment="CENTER" wrappingWidth="136.04296875">
+               <font>
+                  <Font name="Georgia" size="25.0" />
+               </font>
+            </Text>
+            <Text layoutX="81.0" layoutY="367.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Likes" textAlignment="CENTER" wrappingWidth="37.0">
                <font>
                   <Font name="Georgia" size="13.0" />
                </font>
             </Text>
-            <Text layoutX="267.0" layoutY="258.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Luca" textAlignment="CENTER" wrappingWidth="79.04296875">
+            <Text layoutX="119.0" layoutY="367.0" strokeType="OUTSIDE" strokeWidth="0.0" text="NLike" textAlignment="CENTER" wrappingWidth="37.0">
                <font>
-                  <Font name="Georgia" size="18.0" />
+                  <Font name="Georgia" size="13.0" />
                </font>
             </Text>
-            <ImageView fitHeight="45.0" fitWidth="45.0" layoutX="22.0" layoutY="220.0">
+            <ImageView fitHeight="45.0" fitWidth="45.0" layoutX="22.0" layoutY="328.0">
                <image>
                   <Image url="@Images/pyth.png" />
-               </image>
-            </ImageView>
-            <ImageView fitHeight="25.0" fitWidth="25.0" layoutX="350.0" layoutY="239.0">
-               <image>
-                  <Image url="@Images/R.jpg" />
                </image>
             </ImageView>
          </children>

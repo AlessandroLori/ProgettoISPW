@@ -1,0 +1,117 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.layout.Pane?>
+<?import javafx.scene.shape.Rectangle?>
+<?import javafx.scene.text.Font?>
+<?import javafx.scene.text.Text?>
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="518.0" prefWidth="690.0" xmlns="http://javafx.com/javafx/17" xmlns:fx="http://javafx.com/fxml/1">
+   <children>
+      <Pane layoutX="148.0" layoutY="100.0" prefHeight="200.0" prefWidth="200.0" AnchorPane.bottomAnchor="0.0" AnchorPane.leftAnchor="0.0" AnchorPane.rightAnchor="0.0" AnchorPane.topAnchor="0.0">
+         <children>
+            <ImageView fitHeight="518.0" fitWidth="690.0">
+               <image>
+                  <Image url="@Images/R2.jpg" />
+               </image>
+            </ImageView>
+            <Rectangle fill="#ff8d00" height="43.0" stroke="BLACK" strokeType="INSIDE" width="690.0" />
+            <Text layoutX="180.0" layoutY="33.0" strokeType="OUTSIDE" strokeWidth="0.0" text="WHICH LANGUAGE" textAlignment="CENTER" wrappingWidth="339.04296875">
+               <font>
+                  <Font name="Georgia" size="35.0" />
+               </font>
+            </Text>
+            <ImageView fitHeight="37.0" fitWidth="37.0" layoutX="644.0" layoutY="3.0">
+               <image>
+                  <Image url="@Images/icons8-user-64.png" />
+               </image>
+            </ImageView>
+            <ImageView fitHeight="37.0" fitWidth="37.0" layoutX="7.0" layoutY="3.0">
+               <image>
+                  <Image url="@Images/icons8-menu-24.png" />
+               </image>
+            </ImageView>
+            <Rectangle arcHeight="23.0" arcWidth="23.0" fill="#ff8d00" height="43.0" layoutX="208.0" layoutY="79.0" stroke="BLACK" strokeType="INSIDE" width="274.0" />
+            <ImageView fitHeight="40.0" fitWidth="40.0" layoutX="208.0" layoutY="81.0">
+               <image>
+                  <Image url="@Images/icons8-source-cod.png" />
+               </image>
+            </ImageView>
+            <ImageView fitHeight="40.0" fitWidth="40.0" layoutX="442.0" layoutY="81.0">
+               <image>
+                  <Image url="@Images/icons8-source-cod.png" />
+               </image>
+            </ImageView>
+            <Text layoutX="264.0" layoutY="111.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Universities" textAlignment="CENTER" wrappingWidth="163.0">
+               <font>
+                  <Font name="Georgia" size="30.0" />
+               </font>
+            </Text>
+            <Rectangle arcHeight="23.0" arcWidth="23.0" fill="#8aff7a" height="106.0" layoutX="14.0" layoutY="157.0" stroke="BLACK" strokeType="INSIDE" width="627.0" />
+            <Text layoutX="117.0" layoutY="188.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Università di Roma Tor Vergata" textAlignment="CENTER" wrappingWidth="219.04296875">
+               <font>
+                  <Font name="Georgia" size="24.0" />
+               </font>
+            </Text>
+            <ImageView fitHeight="100.0" fitWidth="100.0" layoutX="17.0" layoutY="157.0">
+               <image>
+                  <Image url="@Images/Torvi.png" />
+               </image>
+            </ImageView>
+            <Text layoutX="154.0" layoutY="242.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Luogo: Roma" textAlignment="CENTER" wrappingWidth="130.0">
+               <font>
+                  <Font name="Georgia" size="20.0" />
+               </font>
+            </Text>
+            <Text layoutX="345.0" layoutY="213.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Corsi:" textAlignment="CENTER" wrappingWidth="45.0">
+               <font>
+                  <Font name="Georgia" size="16.0" />
+               </font>
+            </Text>
+            <Rectangle arcHeight="23.0" arcWidth="23.0" fill="#fbff00" height="20.0" layoutX="404.0" layoutY="216.0" stroke="BLACK" strokeType="INSIDE" width="219.0" />
+            <Rectangle arcHeight="23.0" arcWidth="23.0" fill="#fbff00" height="20.0" layoutX="404.0" layoutY="183.0" stroke="BLACK" strokeType="INSIDE" width="219.0" />
+            <Text layoutX="411.0" layoutY="199.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Machine Learning" textAlignment="CENTER" wrappingWidth="206.0">
+               <font>
+                  <Font name="Georgia" size="16.0" />
+               </font>
+            </Text>
+            <Text layoutX="411.0" layoutY="232.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Firmware Development" textAlignment="CENTER" wrappingWidth="206.0">
+               <font>
+                  <Font name="Georgia" size="16.0" />
+               </font>
+            </Text>
+            <Rectangle arcHeight="23.0" arcWidth="23.0" fill="#8aff7a" height="106.0" layoutX="14.0" layoutY="276.0" stroke="BLACK" strokeType="INSIDE" width="627.0" />
+            <Text layoutX="117.0" layoutY="307.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Università di Roma Quella Rossa Brutta" textAlignment="CENTER" wrappingWidth="219.04296875">
+               <font>
+                  <Font name="Georgia" size="24.0" />
+               </font>
+            </Text>
+            <Text layoutX="154.0" layoutY="361.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Luogo: Roma" textAlignment="CENTER" wrappingWidth="130.0">
+               <font>
+                  <Font name="Georgia" size="20.0" />
+               </font>
+            </Text>
+            <Text layoutX="345.0" layoutY="332.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Corsi:" textAlignment="CENTER" wrappingWidth="45.0">
+               <font>
+                  <Font name="Georgia" size="16.0" />
+               </font>
+            </Text>
+            <Rectangle arcHeight="23.0" arcWidth="23.0" fill="#fbff00" height="20.0" layoutX="404.0" layoutY="335.0" stroke="BLACK" strokeType="INSIDE" width="219.0" />
+            <Rectangle arcHeight="23.0" arcWidth="23.0" fill="#fbff00" height="20.0" layoutX="404.0" layoutY="302.0" stroke="BLACK" strokeType="INSIDE" width="219.0" />
+            <Text layoutX="411.0" layoutY="318.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Corso boh" textAlignment="CENTER" wrappingWidth="206.0">
+               <font>
+                  <Font name="Georgia" size="16.0" />
+               </font>
+            </Text>
+            <Text layoutX="411.0" layoutY="351.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Altro corso" textAlignment="CENTER" wrappingWidth="206.0">
+               <font>
+                  <Font name="Georgia" size="16.0" />
+               </font>
+            </Text>
+            <Rectangle arcHeight="5.0" arcWidth="5.0" fill="RED" height="95.0" layoutX="20.0" layoutY="282.0" stroke="BLACK" strokeType="INSIDE" width="95.0" />
+         </children>
+      </Pane>
+   </children>
+</AnchorPane>
