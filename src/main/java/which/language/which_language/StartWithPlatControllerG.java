@@ -18,6 +18,50 @@ public class StartWithPlatControllerG implements Initializable {
     private Button DiscoverBestLang;
     @FXML
     private Button ChProjectButton;
+    @FXML
+    private Button BackStartButton;
+    @FXML
+    private Button CodingBooksButton;
+    @FXML
+    private Button UniversityButton;
+    @FXML
+    private Button CareerButton;
+
+    @FXML
+    private void Career() throws Exception{
+        Parent root= FXMLLoader.load(Objects.requireNonNull(getClass().getResource("Career.fxml")));
+        Scene sceneC= new Scene(root, 690,518);
+        Stage stage= (Stage) CareerButton.getScene().getWindow();
+
+        stage.setTitle("WHICH LANGUAGE");
+        stage.setScene(sceneC);
+        stage.setResizable(false);
+        stage.show();
+    }
+
+    @FXML
+    private void University() throws Exception{
+        Parent root= FXMLLoader.load(Objects.requireNonNull(getClass().getResource("Universities.fxml")));
+        Scene sceneC= new Scene(root, 690,518);
+        Stage stage= (Stage) UniversityButton.getScene().getWindow();
+
+        stage.setTitle("WHICH LANGUAGE");
+        stage.setScene(sceneC);
+        stage.setResizable(false);
+        stage.show();
+    }
+
+    @FXML
+    private void BackStart() throws Exception{
+        Parent root= FXMLLoader.load(Objects.requireNonNull(getClass().getResource("Welcome.fxml")));
+        Scene sceneC= new Scene(root, 690,518);
+        Stage stage= (Stage) BackStartButton.getScene().getWindow();
+
+        stage.setTitle("WHICH LANGUAGE");
+        stage.setScene(sceneC);
+        stage.setResizable(false);
+        stage.show();
+    }
 
     @FXML
     private void NeedItFor() throws Exception{
@@ -25,7 +69,7 @@ public class StartWithPlatControllerG implements Initializable {
         Scene sceneC= new Scene(root, 690,518);
         Stage stage= (Stage) DiscoverBestLang.getScene().getWindow();
 
-        stage.setTitle("Learning Question");
+        stage.setTitle("WHICH LANGUAGE");
         stage.setScene(sceneC);
         stage.setResizable(false);
         stage.show();
@@ -36,6 +80,18 @@ public class StartWithPlatControllerG implements Initializable {
         Parent root= FXMLLoader.load(Objects.requireNonNull(getClass().getResource("Projects.fxml")));
         Scene sceneC= new Scene(root, 690,518);
         Stage stage= (Stage) ChProjectButton.getScene().getWindow();
+
+        stage.setTitle("WHICH LANGUAGE");
+        stage.setScene(sceneC);
+        stage.setResizable(false);
+        stage.show();
+    }
+
+    @FXML
+    private void CodingBooks() throws Exception{
+        Parent root= FXMLLoader.load(Objects.requireNonNull(getClass().getResource("CodingBooks.fxml")));
+        Scene sceneC= new Scene(root, 690, 518);
+        Stage stage= (Stage) CodingBooksButton.getScene().getWindow();
 
         stage.setTitle("WHICH LANGUAGE");
         stage.setScene(sceneC);

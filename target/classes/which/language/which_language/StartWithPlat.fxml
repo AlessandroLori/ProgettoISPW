@@ -56,7 +56,7 @@
             <Font name="Georgia" size="25.0" />
          </font>
       </Text>
-      <Button layoutX="36.0" layoutY="283.0" mnemonicParsing="false" opacity="0.0" prefHeight="34.0" prefWidth="197.0" text="Button">
+      <Button fx:id="CodingBooksButton" layoutX="36.0" layoutY="283.0" mnemonicParsing="false" onAction="#CodingBooks" opacity="0.0" prefHeight="34.0" prefWidth="197.0" text="Button">
          <cursor>
             <Cursor fx:constant="HAND" />
          </cursor></Button>
@@ -86,7 +86,7 @@
             <Font name="Georgia" size="25.0" />
          </font>
       </Text>
-      <Button layoutX="36.0" layoutY="384.0" mnemonicParsing="false" opacity="0.0" prefHeight="34.0" prefWidth="197.0" text="Button">
+      <Button fx:id="UniversityButton" layoutX="36.0" layoutY="384.0" mnemonicParsing="false" onAction="#University" opacity="0.0" prefHeight="34.0" prefWidth="197.0" text="Button">
          <cursor>
             <Cursor fx:constant="HAND" />
          </cursor>
@@ -97,7 +97,17 @@
             <Font name="Georgia" size="25.0" />
          </font>
       </Text>
-      <Button layoutX="466.0" layoutY="383.0" mnemonicParsing="false" opacity="0.0" prefHeight="34.0" prefWidth="197.0" text="Button">
+      <Button fx:id="CareerButton" layoutX="466.0" layoutY="383.0" mnemonicParsing="false" onAction="#Career" opacity="0.0" prefHeight="34.0" prefWidth="197.0" text="Button">
+         <cursor>
+            <Cursor fx:constant="HAND" />
+         </cursor>
+      </Button>
+      <ImageView fitHeight="37.0" fitWidth="37.0" layoutX="86.0" layoutY="2.0">
+         <image>
+            <Image url="@Images/icons8-back-arrow-50.png" />
+         </image>
+      </ImageView>
+      <Button fx:id="BackStartButton" layoutX="86.0" layoutY="2.0" mnemonicParsing="false" onAction="#BackStart" opacity="0.0" prefHeight="37.0" prefWidth="37.0" text="Button">
          <cursor>
             <Cursor fx:constant="HAND" />
          </cursor>

@@ -32,6 +32,20 @@ public class NeedItForControllerG implements Initializable {
     private Button FunEsoButton;
     @FXML
     private Button SoftDevButton;
+    @FXML
+    private Button BackStartWithPlatButton;
+
+    @FXML
+    private void BackStartWithPlat() throws Exception{
+        Parent root= FXMLLoader.load(Objects.requireNonNull(getClass().getResource("StartWithPlat.fxml")));
+        Scene sceneC= new Scene(root, 690, 518);
+        Stage stage= (Stage) BackStartWithPlatButton.getScene().getWindow();
+
+        stage.setTitle("WHICH LANGUAGE");
+        stage.setScene(sceneC);
+        stage.setResizable(false);
+        stage.show();
+    }
 
     @FXML
     private void Scrypting() throws Exception{

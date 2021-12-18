@@ -19,17 +19,17 @@
          </image>
       </ImageView>
       <Rectangle arcHeight="5.0" arcWidth="5.0" fill="#ff8d00" height="43.0" layoutX="1.0" stroke="BLACK" strokeType="INSIDE" width="690.0" AnchorPane.leftAnchor="0.0" AnchorPane.rightAnchor="0.0" AnchorPane.topAnchor="0.0" />
-      <Text layoutX="181.0" layoutY="33.0" strokeType="OUTSIDE" strokeWidth="0.0" text="WHICH LANGUAGE" textAlignment="CENTER" wrappingWidth="339.04296875">
+      <Text layoutX="180.0" layoutY="33.0" strokeType="OUTSIDE" strokeWidth="0.0" text="WHICH LANGUAGE" textAlignment="CENTER" wrappingWidth="339.04296875">
          <font>
             <Font name="Georgia" size="35.0" />
          </font>
       </Text>
-      <ImageView fitHeight="37.0" fitWidth="37.0" layoutX="645.0" layoutY="3.0">
+      <ImageView fitHeight="37.0" fitWidth="37.0" layoutX="644.0" layoutY="3.0">
          <image>
             <Image url="@Images/icons8-user-64.png" />
          </image>
       </ImageView>
-      <ImageView fitHeight="37.0" fitWidth="37.0" layoutX="8.0" layoutY="3.0">
+      <ImageView fitHeight="37.0" fitWidth="37.0" layoutX="7.0" layoutY="3.0">
          <image>
             <Image url="@Images/icons8-menu-24.png" />
          </image>
