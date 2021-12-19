@@ -10,7 +10,7 @@
 <?import javafx.scene.text.Font?>
 <?import javafx.scene.text.Text?>
 
-<AnchorPane fx:controller="which.language.which_language.CodingBooksControllerG" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="518.0" prefWidth="690.0" xmlns="http://javafx.com/javafx/17" xmlns:fx="http://javafx.com/fxml/1">
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="518.0" prefWidth="690.0" xmlns="http://javafx.com/javafx/17" xmlns:fx="http://javafx.com/fxml/1" fx:controller="which.language.which_language.CodingBooksControllerG">
    <children>
       <Pane layoutX="148.0" layoutY="100.0" prefHeight="200.0" prefWidth="200.0" AnchorPane.bottomAnchor="0.0" AnchorPane.leftAnchor="0.0" AnchorPane.rightAnchor="0.0" AnchorPane.topAnchor="0.0">
          <children>
@@ -51,44 +51,13 @@
                   <Font name="Georgia" size="30.0" />
                </font>
             </Text>
-            <Rectangle arcHeight="23.0" arcWidth="23.0" fill="#fbff00" height="49.0" layoutX="14.0" layoutY="204.0" stroke="BLACK" strokeType="INSIDE" width="318.0" />
-            <Text layoutX="67.0" layoutY="228.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Learn C The Hard Way" textAlignment="CENTER" wrappingWidth="257.04296875">
+            <Rectangle arcHeight="23.0" arcWidth="23.0" fill="#8aff7a" height="106.0" layoutX="14.0" layoutY="323.0" stroke="BLACK" strokeType="INSIDE" width="644.0" />
+            <Text layoutX="120.0" layoutY="351.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Concetti di Informatica e Fondamenti di Python" textAlignment="CENTER" wrappingWidth="529.04296875">
                <font>
                   <Font name="Georgia" size="25.0" />
                </font>
             </Text>
-            <Text layoutX="81.0" layoutY="245.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Likes" textAlignment="CENTER" wrappingWidth="37.0">
-               <font>
-                  <Font name="Georgia" size="13.0" />
-               </font>
-            </Text>
-            <Text layoutX="119.0" layoutY="245.0" strokeType="OUTSIDE" strokeWidth="0.0" text="NLike" textAlignment="CENTER" wrappingWidth="37.0">
-               <font>
-                  <Font name="Georgia" size="13.0" />
-               </font>
-            </Text>
-            <Rectangle arcHeight="23.0" arcWidth="23.0" fill="#fbff00" height="49.0" layoutX="14.0" layoutY="265.0" stroke="BLACK" strokeType="INSIDE" width="587.0" />
-            <Text layoutX="68.0" layoutY="289.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Concetti di Informatica e Fondamenti di Python" textAlignment="CENTER" wrappingWidth="529.04296875">
-               <font>
-                  <Font name="Georgia" size="25.0" />
-               </font>
-            </Text>
-            <Text layoutX="81.0" layoutY="306.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Likes" textAlignment="CENTER" wrappingWidth="37.0">
-               <font>
-                  <Font name="Georgia" size="13.0" />
-               </font>
-            </Text>
-            <Text layoutX="119.0" layoutY="306.0" strokeType="OUTSIDE" strokeWidth="0.0" text="NLike" textAlignment="CENTER" wrappingWidth="37.0">
-               <font>
-                  <Font name="Georgia" size="13.0" />
-               </font>
-            </Text>
-            <ImageView fitHeight="45.0" fitWidth="45.0" layoutX="22.0" layoutY="206.0">
-               <image>
-                  <Image url="@Images/LearnCTheHardWay.jpg" />
-               </image>
-            </ImageView>
-            <ImageView fitHeight="45.0" fitWidth="45.0" layoutX="22.0" layoutY="267.0">
+            <ImageView fitHeight="95.0" fitWidth="85.0" layoutX="23.0" layoutY="328.0">
                <image>
                   <Image url="@Images/PythonBook1.jpg" />
                </image>
@@ -117,27 +86,6 @@
                   <Font name="Georgia" size="20.0" />
                </font>
             </Text>
-            <Rectangle arcHeight="23.0" arcWidth="23.0" fill="#fbff00" height="49.0" layoutX="14.0" layoutY="326.0" stroke="BLACK" strokeType="INSIDE" width="188.0" />
-            <Text layoutX="69.0" layoutY="350.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Book Title" textAlignment="CENTER" wrappingWidth="136.04296875">
-               <font>
-                  <Font name="Georgia" size="25.0" />
-               </font>
-            </Text>
-            <Text layoutX="81.0" layoutY="367.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Likes" textAlignment="CENTER" wrappingWidth="37.0">
-               <font>
-                  <Font name="Georgia" size="13.0" />
-               </font>
-            </Text>
-            <Text layoutX="119.0" layoutY="367.0" strokeType="OUTSIDE" strokeWidth="0.0" text="NLike" textAlignment="CENTER" wrappingWidth="37.0">
-               <font>
-                  <Font name="Georgia" size="13.0" />
-               </font>
-            </Text>
-            <ImageView fitHeight="45.0" fitWidth="45.0" layoutX="22.0" layoutY="328.0">
-               <image>
-                  <Image url="@Images/pyth.png" />
-               </image>
-            </ImageView>
             <ImageView fitHeight="37.0" fitWidth="37.0" layoutX="86.0" layoutY="2.0">
                <image>
                   <Image url="@Images/icons8-back-arrow-50.png" />
@@ -148,6 +96,51 @@
                   <Cursor fx:constant="HAND" />
                </cursor>
             </Button>
+            <Rectangle arcHeight="23.0" arcWidth="23.0" fill="#fbff00" height="28.0" layoutX="412.0" layoutY="376.0" stroke="BLACK" strokeType="INSIDE" width="123.0" />
+            <Text layoutX="412.0" layoutY="397.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Rating: 4/5" textAlignment="CENTER" wrappingWidth="123.0">
+               <font>
+                  <Font name="Georgia" size="20.0" />
+               </font>
+            </Text>
+            <Rectangle arcHeight="23.0" arcWidth="23.0" fill="#fbff00" height="28.0" layoutX="573.0" layoutY="376.0" stroke="BLACK" strokeType="INSIDE" width="71.0" />
+            <Text layoutX="578.0" layoutY="397.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Buy It" textAlignment="CENTER" wrappingWidth="61.0">
+               <font>
+                  <Font name="Georgia" size="20.0" />
+               </font>
+            </Text>
+            <Text layoutX="124.0" layoutY="397.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Language: Python" textAlignment="CENTER" wrappingWidth="166.0">
+               <font>
+                  <Font name="Georgia" size="20.0" />
+               </font>
+            </Text>
+            <Rectangle arcHeight="23.0" arcWidth="23.0" fill="#8aff7a" height="106.0" layoutX="14.0" layoutY="200.0" stroke="BLACK" strokeType="INSIDE" width="644.0" />
+            <Text layoutX="120.0" layoutY="229.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Learn C The Hard Way" textAlignment="CENTER" wrappingWidth="257.04296875">
+               <font>
+                  <Font name="Georgia" size="25.0" />
+               </font>
+            </Text>
+            <ImageView fitHeight="95.0" fitWidth="85.0" layoutX="23.0" layoutY="206.0">
+               <image>
+                  <Image url="@Images/LearnCTheHardWay.jpg" />
+               </image>
+            </ImageView>
+            <Rectangle arcHeight="23.0" arcWidth="23.0" fill="#fbff00" height="28.0" layoutX="411.0" layoutY="253.0" stroke="BLACK" strokeType="INSIDE" width="123.0" />
+            <Text layoutX="411.0" layoutY="274.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Rating: 5/5" textAlignment="CENTER" wrappingWidth="123.0">
+               <font>
+                  <Font name="Georgia" size="20.0" />
+               </font>
+            </Text>
+            <Rectangle arcHeight="23.0" arcWidth="23.0" fill="#fbff00" height="28.0" layoutX="573.0" layoutY="253.0" stroke="BLACK" strokeType="INSIDE" width="71.0" />
+            <Text layoutX="578.0" layoutY="274.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Buy It" textAlignment="CENTER" wrappingWidth="61.0">
+               <font>
+                  <Font name="Georgia" size="20.0" />
+               </font>
+            </Text>
+            <Text layoutX="124.0" layoutY="274.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Language: C" textAlignment="CENTER" wrappingWidth="113.0">
+               <font>
+                  <Font name="Georgia" size="20.0" />
+               </font>
+            </Text>
          </children>
       </Pane>
    </children>

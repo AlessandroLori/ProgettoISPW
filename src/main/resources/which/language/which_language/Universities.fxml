@@ -10,7 +10,7 @@
 <?import javafx.scene.text.Font?>
 <?import javafx.scene.text.Text?>
 
-<AnchorPane fx:controller="which.language.which_language.UniversitiesControllerG" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="518.0" prefWidth="690.0" xmlns="http://javafx.com/javafx/17" xmlns:fx="http://javafx.com/fxml/1">
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="518.0" prefWidth="690.0" xmlns="http://javafx.com/javafx/17" xmlns:fx="http://javafx.com/fxml/1" fx:controller="which.language.which_language.UniversitiesControllerG">
    <children>
       <Pane layoutX="148.0" layoutY="100.0" prefHeight="200.0" prefWidth="200.0" AnchorPane.bottomAnchor="0.0" AnchorPane.leftAnchor="0.0" AnchorPane.rightAnchor="0.0" AnchorPane.topAnchor="0.0">
          <children>
@@ -51,68 +51,88 @@
                   <Font name="Georgia" size="30.0" />
                </font>
             </Text>
-            <Rectangle arcHeight="23.0" arcWidth="23.0" fill="#8aff7a" height="106.0" layoutX="14.0" layoutY="157.0" stroke="BLACK" strokeType="INSIDE" width="627.0" />
-            <Text layoutX="117.0" layoutY="188.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Università di Roma Tor Vergata" textAlignment="CENTER" wrappingWidth="219.04296875">
+            <Rectangle arcHeight="23.0" arcWidth="23.0" fill="#8aff7a" height="106.0" layoutX="14.0" layoutY="202.0" stroke="BLACK" strokeType="INSIDE" width="627.0" />
+            <Text layoutX="117.0" layoutY="233.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Università di Roma Tor Vergata" textAlignment="CENTER" wrappingWidth="219.04296875">
                <font>
                   <Font name="Georgia" size="24.0" />
                </font>
             </Text>
-            <ImageView fitHeight="100.0" fitWidth="100.0" layoutX="17.0" layoutY="157.0">
+            <ImageView fitHeight="100.0" fitWidth="100.0" layoutX="17.0" layoutY="202.0">
                <image>
                   <Image url="@Images/Torvi.png" />
                </image>
             </ImageView>
-            <Text layoutX="154.0" layoutY="242.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Luogo: Roma" textAlignment="CENTER" wrappingWidth="130.0">
+            <Text layoutX="154.0" layoutY="287.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Luogo: Roma" textAlignment="CENTER" wrappingWidth="130.0">
                <font>
                   <Font name="Georgia" size="20.0" />
                </font>
             </Text>
-            <Text layoutX="345.0" layoutY="213.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Corsi:" textAlignment="CENTER" wrappingWidth="45.0">
+            <Text layoutX="345.0" layoutY="258.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Corsi:" textAlignment="CENTER" wrappingWidth="45.0">
                <font>
                   <Font name="Georgia" size="16.0" />
                </font>
             </Text>
-            <Rectangle arcHeight="23.0" arcWidth="23.0" fill="#fbff00" height="20.0" layoutX="404.0" layoutY="216.0" stroke="BLACK" strokeType="INSIDE" width="219.0" />
-            <Rectangle arcHeight="23.0" arcWidth="23.0" fill="#fbff00" height="20.0" layoutX="404.0" layoutY="183.0" stroke="BLACK" strokeType="INSIDE" width="219.0" />
-            <Text layoutX="411.0" layoutY="199.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Machine Learning" textAlignment="CENTER" wrappingWidth="206.0">
+            <Rectangle arcHeight="23.0" arcWidth="23.0" fill="#fbff00" height="20.0" layoutX="404.0" layoutY="228.0" stroke="BLACK" strokeType="INSIDE" width="219.0" />
+            <Text layoutX="411.0" layoutY="244.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Machine Learning" textAlignment="CENTER" wrappingWidth="206.0">
                <font>
                   <Font name="Georgia" size="16.0" />
                </font>
             </Text>
-            <Text layoutX="411.0" layoutY="232.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Firmware Development" textAlignment="CENTER" wrappingWidth="206.0">
+            <Button layoutX="404.0" layoutY="226.0" mnemonicParsing="false" opacity="0.0" prefHeight="20.0" prefWidth="219.0" text="Button">
+               <cursor>
+                  <Cursor fx:constant="HAND" />
+               </cursor>
+            </Button>
+            <Rectangle arcHeight="23.0" arcWidth="23.0" fill="#fbff00" height="20.0" layoutX="404.0" layoutY="261.0" stroke="BLACK" strokeType="INSIDE" width="219.0" />
+            <Text layoutX="411.0" layoutY="277.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Firmware Development" textAlignment="CENTER" wrappingWidth="206.0">
                <font>
                   <Font name="Georgia" size="16.0" />
                </font>
             </Text>
-            <Rectangle arcHeight="23.0" arcWidth="23.0" fill="#8aff7a" height="106.0" layoutX="14.0" layoutY="276.0" stroke="BLACK" strokeType="INSIDE" width="627.0" />
-            <Text layoutX="117.0" layoutY="307.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Università di Roma Altra" textAlignment="CENTER" wrappingWidth="219.04296875">
+            <Button layoutX="404.0" layoutY="259.0" mnemonicParsing="false" opacity="0.0" prefHeight="20.0" prefWidth="219.0" text="Button">
+               <cursor>
+                  <Cursor fx:constant="HAND" />
+               </cursor>
+            </Button>
+            <Rectangle arcHeight="23.0" arcWidth="23.0" fill="#8aff7a" height="106.0" layoutX="14.0" layoutY="321.0" stroke="BLACK" strokeType="INSIDE" width="627.0" />
+            <Text layoutX="117.0" layoutY="352.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Università di Roma Altra" textAlignment="CENTER" wrappingWidth="219.04296875">
                <font>
                   <Font name="Georgia" size="24.0" />
                </font>
             </Text>
-            <Text layoutX="154.0" layoutY="361.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Luogo: Roma" textAlignment="CENTER" wrappingWidth="130.0">
+            <Text layoutX="154.0" layoutY="406.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Luogo: Roma" textAlignment="CENTER" wrappingWidth="130.0">
                <font>
                   <Font name="Georgia" size="20.0" />
                </font>
             </Text>
-            <Text layoutX="345.0" layoutY="332.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Corsi:" textAlignment="CENTER" wrappingWidth="45.0">
+            <Text layoutX="345.0" layoutY="377.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Corsi:" textAlignment="CENTER" wrappingWidth="45.0">
                <font>
                   <Font name="Georgia" size="16.0" />
                </font>
             </Text>
-            <Rectangle arcHeight="23.0" arcWidth="23.0" fill="#fbff00" height="20.0" layoutX="404.0" layoutY="335.0" stroke="BLACK" strokeType="INSIDE" width="219.0" />
-            <Rectangle arcHeight="23.0" arcWidth="23.0" fill="#fbff00" height="20.0" layoutX="404.0" layoutY="302.0" stroke="BLACK" strokeType="INSIDE" width="219.0" />
-            <Text layoutX="411.0" layoutY="318.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Corso boh" textAlignment="CENTER" wrappingWidth="206.0">
+            <Rectangle arcHeight="23.0" arcWidth="23.0" fill="#fbff00" height="20.0" layoutX="404.0" layoutY="347.0" stroke="BLACK" strokeType="INSIDE" width="219.0" />
+            <Text layoutX="411.0" layoutY="363.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Corso boh" textAlignment="CENTER" wrappingWidth="206.0">
                <font>
                   <Font name="Georgia" size="16.0" />
                </font>
             </Text>
-            <Text layoutX="411.0" layoutY="351.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Altro corso" textAlignment="CENTER" wrappingWidth="206.0">
+            <Button layoutX="404.0" layoutY="345.0" mnemonicParsing="false" opacity="0.0" prefHeight="20.0" prefWidth="219.0" text="Button">
+               <cursor>
+                  <Cursor fx:constant="HAND" />
+               </cursor>
+            </Button>
+            <Rectangle arcHeight="23.0" arcWidth="23.0" fill="#fbff00" height="20.0" layoutX="404.0" layoutY="380.0" stroke="BLACK" strokeType="INSIDE" width="219.0" />
+            <Text layoutX="411.0" layoutY="396.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Altro corso" textAlignment="CENTER" wrappingWidth="206.0">
                <font>
                   <Font name="Georgia" size="16.0" />
                </font>
             </Text>
-            <Rectangle arcHeight="5.0" arcWidth="5.0" fill="RED" height="95.0" layoutX="20.0" layoutY="282.0" stroke="BLACK" strokeType="INSIDE" width="95.0" />
+            <Button layoutX="405.0" layoutY="378.0" mnemonicParsing="false" opacity="0.0" prefHeight="20.0" prefWidth="219.0" text="Button">
+               <cursor>
+                  <Cursor fx:constant="HAND" />
+               </cursor>
+            </Button>
+            <Rectangle arcHeight="5.0" arcWidth="5.0" fill="RED" height="95.0" layoutX="20.0" layoutY="327.0" stroke="BLACK" strokeType="INSIDE" width="95.0" />
             <ImageView fitHeight="37.0" fitWidth="37.0" layoutX="86.0" layoutY="2.0">
                <image>
                   <Image url="@Images/icons8-back-arrow-50.png" />
@@ -123,6 +143,29 @@
                   <Cursor fx:constant="HAND" />
                </cursor>
             </Button>
+            <Rectangle arcHeight="23.0" arcWidth="23.0" fill="#8aff7a" height="49.0" layoutX="239.0" layoutY="129.0" stroke="BLACK" strokeType="INSIDE" width="212.0" />
+            <Rectangle arcHeight="23.0" arcWidth="23.0" fill="#fbff00" height="34.0" layoutX="251.0" layoutY="136.0" stroke="BLACK" strokeType="INSIDE" width="102.0" />
+            <Text layoutX="260.0" layoutY="160.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Filter By: " textAlignment="CENTER" wrappingWidth="88.04296875">
+               <font>
+                  <Font name="Georgia" size="20.0" />
+               </font>
+            </Text>
+            <Rectangle arcHeight="23.0" arcWidth="23.0" fill="#fbff00" height="34.0" layoutX="363.0" layoutY="136.0" stroke="BLACK" strokeType="INSIDE" width="78.0" />
+            <Text layoutX="372.0" layoutY="160.0" strokeType="OUTSIDE" strokeWidth="0.0" text="City" textAlignment="CENTER" wrappingWidth="45.0">
+               <font>
+                  <Font name="Georgia" size="20.0" />
+               </font>
+            </Text>
+            <Button layoutX="363.0" layoutY="136.0" mnemonicParsing="false" opacity="0.0" prefHeight="34.0" prefWidth="78.0" text="Button">
+               <cursor>
+                  <Cursor fx:constant="HAND" />
+               </cursor>
+            </Button>
+            <ImageView layoutX="414.0" layoutY="141.0">
+               <image>
+                  <Image url="@Images/icons8-expand-arrow-24.png" />
+               </image>
+            </ImageView>
          </children>
       </Pane>
    </children>
