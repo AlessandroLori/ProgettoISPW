@@ -1,0 +1,140 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.Cursor?>
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.layout.Pane?>
+<?import javafx.scene.shape.Line?>
+<?import javafx.scene.shape.Rectangle?>
+<?import javafx.scene.text.Font?>
+<?import javafx.scene.text.Text?>
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="518.0" prefWidth="690.0" xmlns="http://javafx.com/javafx/17" xmlns:fx="http://javafx.com/fxml/1" fx:controller="which.language.which_language.UniversitiesControllerG">
+   <children>
+      <Pane layoutX="148.0" layoutY="100.0" prefHeight="200.0" prefWidth="200.0" AnchorPane.bottomAnchor="0.0" AnchorPane.leftAnchor="0.0" AnchorPane.rightAnchor="0.0" AnchorPane.topAnchor="0.0">
+         <children>
+            <ImageView fitHeight="518.0" fitWidth="690.0">
+               <image>
+                  <Image url="@Images/R2.jpg" />
+               </image>
+            </ImageView>
+            <Rectangle fill="#ff8d00" height="43.0" stroke="BLACK" strokeType="INSIDE" width="690.0" />
+            <Text layoutX="180.0" layoutY="33.0" strokeType="OUTSIDE" strokeWidth="0.0" text="WHICH LANGUAGE" textAlignment="CENTER" wrappingWidth="339.04296875">
+               <font>
+                  <Font name="Georgia" size="35.0" />
+               </font>
+            </Text>
+            <ImageView fitHeight="37.0" fitWidth="37.0" layoutX="644.0" layoutY="3.0">
+               <image>
+                  <Image url="@Images/icons8-user-64.png" />
+               </image>
+            </ImageView>
+            <Rectangle arcHeight="23.0" arcWidth="23.0" fill="#ff8d00" height="43.0" layoutX="208.0" layoutY="79.0" stroke="BLACK" strokeType="INSIDE" width="274.0" />
+            <ImageView fitHeight="40.0" fitWidth="40.0" layoutX="208.0" layoutY="81.0">
+               <image>
+                  <Image url="@Images/icons8-source-cod.png" />
+               </image>
+            </ImageView>
+            <ImageView fitHeight="40.0" fitWidth="40.0" layoutX="442.0" layoutY="81.0">
+               <image>
+                  <Image url="@Images/icons8-source-cod.png" />
+               </image>
+            </ImageView>
+            <Text layoutX="264.0" layoutY="111.0" strokeType="OUTSIDE" strokeWidth="0.0" text="User Profile" textAlignment="CENTER" wrappingWidth="163.0">
+               <font>
+                  <Font name="Georgia" size="30.0" />
+               </font>
+            </Text>
+            <Rectangle arcHeight="23.0" arcWidth="23.0" fill="#8aff7a" height="302.0" layoutX="14.0" layoutY="127.0" stroke="BLACK" strokeType="INSIDE" width="665.0" />
+            <Text layoutX="237.0" layoutY="155.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Username:" textAlignment="CENTER" wrappingWidth="101.0">
+               <font>
+                  <Font name="Georgia" size="20.0" />
+               </font>
+            </Text>
+            <ImageView fitHeight="37.0" fitWidth="37.0" layoutX="86.0" layoutY="2.0">
+               <image>
+                  <Image url="@Images/icons8-back-arrow-50.png" />
+               </image>
+            </ImageView>
+            <Button fx:id="BackStartWithPlatButton" layoutX="86.0" layoutY="2.0" mnemonicParsing="false" onAction="#BackStartWithPlat" opacity="0.0" prefHeight="37.0" prefWidth="37.0" text="Button">
+               <cursor>
+                  <Cursor fx:constant="HAND" />
+               </cursor>
+            </Button>
+            <ImageView fitHeight="95.0" fitWidth="95.0" layoutX="57.0" layoutY="136.0">
+               <image>
+                  <Image url="@Images/immprova.jpg" />
+               </image>
+            </ImageView>
+            <Text layoutX="26.0" layoutY="278.0" strokeType="OUTSIDE" strokeWidth="0.0" text="City:" textAlignment="CENTER" wrappingWidth="45.0">
+               <font>
+                  <Font name="Georgia" size="20.0" />
+               </font>
+            </Text>
+            <Rectangle arcHeight="23.0" arcWidth="23.0" fill="#fbff00" height="27.0" layoutX="73.0" layoutY="259.0" stroke="BLACK" strokeType="INSIDE" width="144.0" />
+            <Text layoutX="77.0" layoutY="279.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Select City" textAlignment="CENTER" wrappingWidth="113.0">
+               <font>
+                  <Font name="Georgia" size="22.0" />
+               </font>
+            </Text>
+            <ImageView layoutX="190.0" layoutY="259.0">
+               <image>
+                  <Image url="@Images/icons8-expand-arrow-24.png" />
+               </image>
+            </ImageView>
+            <ImageView layoutX="109.0" layoutY="316.0">
+               <image>
+                  <Image url="@Images/icons8-instagram-48.png" />
+               </image>
+            </ImageView>
+            <Text layoutX="238.0" layoutY="190.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Name:" textAlignment="CENTER" wrappingWidth="64.0">
+               <font>
+                  <Font name="Georgia" size="20.0" />
+               </font>
+            </Text>
+            <Text layoutX="237.0" layoutY="225.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Surname:" textAlignment="CENTER" wrappingWidth="95.0">
+               <font>
+                  <Font name="Georgia" size="20.0" />
+               </font>
+            </Text>
+            <Line endX="363.0" layoutX="316.0" layoutY="245.0" startX="-302.0" />
+            <ImageView layoutX="320.0" layoutY="316.0">
+               <image>
+                  <Image url="@Images/icons8-facebook-48.png" />
+               </image>
+            </ImageView>
+            <ImageView layoutX="517.0" layoutY="316.0">
+               <image>
+                  <Image url="@Images/icons8-github-48.png" />
+               </image>
+            </ImageView>
+            <TextField layoutX="270.0" layoutY="364.0" promptText="Facebook" />
+            <TextField layoutX="59.0" layoutY="364.0" promptText="Instagram" />
+            <TextField layoutX="467.0" layoutY="364.0" promptText="GitHub" />
+            <TextField layoutX="344.0" layoutY="136.0" promptText="Username" text="Giorgio" />
+            <TextField layoutX="344.0" layoutY="171.0" promptText="Name" text="Giorgio" />
+            <TextField layoutX="344.0" layoutY="206.0" promptText="Surname" text="De Santis" />
+            <Rectangle arcHeight="23.0" arcWidth="23.0" fill="#fbff00" height="25.0" layoutX="275.0" layoutY="260.0" stroke="BLACK" strokeType="INSIDE" width="149.0" />
+            <Text layoutX="278.0" layoutY="280.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Your Projects" textAlignment="CENTER" wrappingWidth="144.0">
+               <font>
+                  <Font name="Georgia" size="22.0" />
+               </font>
+            </Text>
+            <Rectangle arcHeight="23.0" arcWidth="23.0" fill="#fbff00" height="25.0" layoutX="482.0" layoutY="260.0" stroke="BLACK" strokeType="INSIDE" width="149.0" />
+            <Text layoutX="485.0" layoutY="280.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Create Project" textAlignment="CENTER" wrappingWidth="144.0">
+               <font>
+                  <Font name="Georgia" size="22.0" />
+               </font>
+            </Text>
+            <ImageView fitHeight="40.0" fitWidth="40.0" layoutX="6.0" layoutY="2.0">
+               <image>
+                  <Image url="@Images/icons8-gear-64.png" />
+               </image>
+            </ImageView>
+         </children>
+      </Pane>
+   </children>
+</AnchorPane>
